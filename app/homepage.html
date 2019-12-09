@@ -34,9 +34,9 @@
                         <a href="#"><img src="images/data/logo.png" alt=""></a>
                     </div>
                     <div class="header__zakaz-box">
-                        <a class="zakaz-box__zayavka" href="javascript:;" data-fancybox data-src="#modal">Заявка на
-                            авто</a>
-                        <a class="zakaz-box__zvonok" href="javascript:;" data-fancybox data-src="#modal">Заказать
+                        <a class="zakaz-box__zayavka" href="javascript:;" data-fancybox data-src="#popup-zayavka">Заявка
+                            на авто</a>
+                        <a class="zakaz-box__zvonok" href="javascript:;" data-fancybox data-src="#popup-zvonok">Заказать
                             звонок</a>
                     </div>
                     <div class="header__phones">
@@ -52,7 +52,7 @@
                         <a href="#" target="blank"></a>
                     </div>
                     <div class="header__dealer">
-                        <a href="javascript:;" data-fancybox data-src="#modal">Стать дилером</a>
+                        <a href="#">Стать дилером</a>
                     </div>
                     <div class="header__nav">
                         <div class="language-select">
@@ -221,7 +221,7 @@
     <main class="main homepage__main">
         <section class="homepage__slider">
             <div class="homepage__slider-items">
-                <div class="homepage__slider-item" style="background-image: url(images/data/homepage__slider-1.jpg);">
+                <div class="homepage__slider-item" style="background-image: url(images/1new_1.jpg);">
                 </div>
                 <div class="homepage__slider-item" style="background-image: url(images/data/homepage__slider-1.jpg);">
                 </div>
@@ -1019,6 +1019,64 @@
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+
+    <section class="page-bottom__contacts-form  modal" id="popup-zvonok">
+        <button data-fancybox-close="" class="fancybox-close-small" title="Close"></button>
+        <div class="container">
+            <div class="about__title">
+                Задать вопрос
+            </div>
+            <div class="page-bottom-subtitle">
+                Уважаемые клиенты, Вы можете заказать звонок нашего консультанта, заполнив нижестоящую форму. Наш
+                консультант свяжется с Вами по указанному номеру телефона в течении 48 часов.<br>
+                Спасибо за обращение в нашу компанию.
+            </div>
+            <div class="contacts-form__box">
+                <form>
+                    <div class="contacts-form__box-left">
+                        <input type="text" placeholder="Имя*">
+                        <input type="text" placeholder="Номер телефона*">
+                        <input type="text" placeholder="E-mail*">
+                        <input type="text" placeholder="Skype">
+                    </div>
+                    <div class="contacts-form__box-right">
+                        <textarea placeholder="Вопрос*"></textarea>
+                        <input type="text" placeholder="Recaptcha">
+                        <button class="btn-form">Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-bottom__contacts-form  modal" id="popup-zayavka">
+        <button data-fancybox-close="" class="fancybox-close-small" title="Close"></button>
+        <div class="container">
+            <div class="about__title">
+                Заказать обратный звонок
+            </div>
+            <div class="page-bottom-subtitle">
+                Уважаемые клиенты, Вы можете заказать звонок нашего консультанта, заполнив нижестоящую форму. Наш
+                консультант свяжется с Вами по указанному номеру телефона в течении 48 часов.<br>
+                Спасибо за обращение в нашу компанию.
+            </div>
+            <div class="contacts-form__box">
+                <form>
+                    <div class="contacts-form__box-left">
+                        <input type="text" placeholder="Имя*">
+                        <input type="text" placeholder="Номер телефона*">
+                        <input type="text" placeholder="E-mail*">
+                        <input type="text" placeholder="Skype">
+                    </div>
+                    <div class="contacts-form__box-right">
+                        <textarea placeholder="Вопрос*"></textarea>
+                        <input type="text" placeholder="Recaptcha">
+                        <button class="btn-form">Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
