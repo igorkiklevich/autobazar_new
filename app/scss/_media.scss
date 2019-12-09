@@ -2055,8 +2055,9 @@
         max-width: inherit;
         margin-bottom: 30px;
 
-        &:last-chlid {
+        &:last-child {
             margin-bottom: 0;
+            width: 100%;
         }
     }
 
