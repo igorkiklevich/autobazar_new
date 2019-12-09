@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Процесс Покупки</title>
+    <meta name="keywords" content="">
+    <meta property="og:title" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:image" content="" />
+    <meta property="fb:app_id" content="">
+    <meta name="csrf-token" content="">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/fotorama.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/libs.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="nav">
+            <div class="header__top">
+                <!--top navigation-->
+                <div class="container">
+                    <div class="logo">
+                        <a href="#"><img src="images/data/logo.png" alt=""></a>
+                    </div>
+                    <div class="header__zakaz-box">
+                        <a class="zakaz-box__zayavka" href="javascript:;" data-fancybox data-src="#modal">Заявка на
+                            авто</a>
+                        <a class="zakaz-box__zvonok" href="javascript:;" data-fancybox data-src="#modal">Заказать
+                            звонок</a>
+                    </div>
+                    <div class="header__phones">
+                        <div class="header__phones-box">
+                            <a href="tel:+14402125612">+1 (440) 212-5612 (USA)</a>
+                            <a href="tel:+74991235732 ">+7 (499) 123-5732 (RUS)</a>
+                        </div>
+                    </div>
+                    <div class="header__social">
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                    </div>
+                    <div class="header__dealer">
+                        <a href="javascript:;" data-fancybox data-src="#modal">Стать дилером</a>
+                    </div>
+                    <div class="header__nav">
+                        <div class="language-select">
+                            <a class="btn btn-link dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki"> Русский
+                                    </a>
+                                </li>
+                                <li><a href="/en/purchasing-process"> English
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="header__login">
+                            <a href="javascript:;" data-fancybox data-src="#login">Вход</a>
+                        </div>
+                    </div>
+                    <div class="header__mobile">
+                        <a href="#" class="menu-toggle">Menu</a>
+                    </div>
+                </div>
+            </div>
+            <!--main menu-->
+            <div class="header__bottom">
+                <div class="container">
+                    <ul class="main-menu list-unstyled">
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Новые авто</a>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Авто с пробегом</a>
+                            <ul class="main-submenu list-unstyled">
+                                <li class="main-submenu-item">
+                                    <a href="#">Авто с аукционов</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Б/У авто в наличии</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Последние продажи</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Услуги</a>
+                            <ul class="main-submenu list-unstyled">
+                                <li class="main-submenu-item">
+                                    <a href="#">Авто с аукционов</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Процесс покупки</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Доставка</a>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">О нас</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="header__search">
+                        <button class="search-toggle">
+                            <span class="icon search-icon"></span></button>
+                        <div class="search-popup">
+                            <div class="search">
+                                <form>
+                                    <input type="text" name="search" placeholder="Поиск">
+                                    <input type="submit" value="" class="search-submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--mobile box-->
+            <div class="header__mobile-box">
+                <div>
+                    <div class="header__phones">
+                        <div class="header__phones-box">
+                            <a href="tel:+14402125612">+1 (440) 212-5612 (USA)</a>
+                            <a href="tel:+74991235732 ">+7 (499) 123-5732 (RUS)</a>
+                        </div>
+                    </div>
+                    <div class="header__social">
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                    </div>
+                    <div class="header__dealer">
+                        <a href="javascript:;" data-fancybox data-src="#modal">Стать дилером</a>
+                    </div>
+                    <div class="header__search">
+                        <form>
+                            <input type="text" class="search-input" placeholder="Поиск">
+                        </form>
+                    </div>
+                    <div class="header__nav">
+                        <div class="language-select">
+                            <a href="#" class="btn btn-link dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki">
+                                        Русский </a>
+                                </li>
+                                <li><a href="/en/purchasing-process">
+                                        English
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="header__login">
+                            <a href="javascript:;" data-fancybox data-src="#login">Вход</a>
+                        </div>
+                    </div>
+                    <div class="header__mobile-menu">
+                        <ul class="main-menu list-unstyled">
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Новые авто</a>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Авто с пробегом</a>
+                                <ul class="main-submenu list-unstyled">
+                                    <li class="main-submenu-item">
+                                        <a href="#">Авто с аукционов</a>
+                                    </li>
+                                    <li class="main-submenu-item">
+                                        <a href="#">Б/У авто в наличии</a>
+                                    </li>
+                                    <li class="main-submenu-item">
+                                        <a href="#">Последние продажи</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Услуги</a>
+                                <ul class="main-submenu list-unstyled">
+                                    <li class="main-submenu-item">
+                                        <a href="#">Авто с аукционов</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Процесс покупки</a>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Доставка</a>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">О нас</a>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> <!-- header end -->
+
+    <section class="top-block">
+        <!-- top-block -->
+        <div class="top-block__wrapper" style="background-image: url(images/data/about-preview-img.jpg)">
+            <div class="container">
+                <h1>О нас</h1>
+            </div>
+        </div>
+    </section><!-- top-block end -->
+
+    <!-- content -->
+    <main class="main about__main">
+        <section class="content about__content">
+            <section>
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li class="active"><a href="#">О нас</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="about__director">
+                <div class="container">
+                    <div class="about__title">
+                        опытный поставщик авто из америки
+                    </div>
+                    <div class="director__box">
+                        <div class="director__box-left">
+                            <img src="images/data/director.png" alt="">
+                            <div class="director__name">
+                                Игорь Речицкий - директор
+                                компании Autobazar.US
+                            </div>
+                        </div>
+                        <div class="director__box-right">
+                            <p>Здравствуйте, уважаемые клиенты и посетители нашего сайта!
+                            </p>
+                            <p>Вот уже почти <span>20 лет</span> наша компания помогает людям осуществлять процесс
+                                покупки транспорта с американского рынка. </p>
+                            <p>Мы стараемся сделать этот процесс для наших клиентов максимально легким, выгодным и
+                                быстрым.
+                            </p>
+                            <p>На этой странице мы хотим вам рассказать о нас, выделить наши конкурентные преимущества,
+                                познакомить с сотрудниками нашей компании для того, чтобы вы имели представление кто мы
+                                такие.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about__statistika">
+                <div class="about__title">
+                    AutoBazar.US в цифрах
+                </div>
+                <div class="container">
+                    <div class="about__statistika-box">
+                        <div class="about__statistika-box-item statistika__left">
+                            <div class="statistika__left-text">Более 20 тыс. автомобилей по всему миру</div>
+                            <div class="statistika__left-icons st1">
+                                <img src="images/icons/delivery-icon-2.png" alt="">
+                                <img src="images/icons/delivery-icon-2.png" alt="">
+                                <img src="images/icons/delivery-icon-2.png" alt="">
+                                <img src="images/icons/delivery-icon-2.png" alt="">
+                                <img src="images/icons/delivery-icon-2.png" alt="">
+                                <img src="images/icons/delivery-icon-2.png" alt="">
+                                <img src="images/icons/delivery-icon-2.png" alt="">
+                                <img src="images/icons/delivery-icon-2.png" alt="">
+                            </div>
+                            <div class="statistika__left-text">Имеем 13 региональных представителей в странах СНГ и
+                                Европе
+                            </div>
+                            <div class="statistika__left-icons">
+                                <img src="images/icons/man-icon.png" alt="">
+                                <img src="images/icons/man-icon.png" alt="">
+                                <img src="images/icons/man-icon.png" alt="">
+                                <img src="images/icons/man-icon.png" alt="">
+                                <img src="images/icons/man-icon.png" alt="">
+                                <img src="images/icons/man-icon.png" alt="">
+                                <img src="images/icons/man-icon.png" alt="">
+                                <img src="images/icons/man-icon.png" alt="">
+                            </div>
+                        </div>
+                        <div class="about__statistika-box-item statistika__center">
+                            <div class="statistika__center-column">
+                                <div class="statistika__center-date">С 2001
+                                    года</div>
+                                <div class="statistika__center-text">Наша компания<br>
+                                    на рынке</div>
+                            </div>
+                            <div class="statistika__center-column">
+                                <div class="statistika__center-date">В 2008
+                                    году</div>
+                                <div class="statistika__center-text">Запустили вэб-сайт</div>
+                            </div>
+                            <div class="statistika__center-column">
+                                <div class="statistika__center-date">С 2013
+                                    года</div>
+                                <div class="statistika__center-text">Являемся членами Североамериканской Ассоциации
+                                    Автодилеров</div>
+                            </div>
+                            <div class="statistika__center-column">
+                                <div class="statistika__center-date">С 2014
+                                    года</div>
+                                <div class="statistika__center-text">Ведем YouTube-канал, где за нами следят уже более
+                                    28
+                                    тыс. подписчиков</div>
+                            </div>
+                        </div>
+                        <div class="about__statistika-box-item statistika__right">
+                            <div class="statistika__right-percent">70%</div>
+                            <div class="statistika__right-text">Нашего бизнеса – это экспорт новых автомобилей из США,
+                                которые не представлены на других рынках</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about__advantages bg_gray">
+                <div class="container">
+                    <div class="about__title">
+                        Чем мы отличаемся от наших конкурентов?
+                    </div>
+                    <div class="about__advantages-column">
+                        <div class="about__advantages-icon"><img src="images/icons/car-big.png" alt=""></div>
+                        <div class="about__advantages-text">Все автомобили представленные на нашем сайте - это
+                            автомобили
+                            принадлежащие нашей компании,
+                            снятые на нашей площадке. Мы не продаем чужие авто и не выставляем фото с различных авто
+                            порталов</div>
+                    </div>
+                    <div class="about__advantages-column">
+                        <div class="about__advantages-icon"><img src="images/icons/dollar-big.png" alt=""></div>
+                        <div class="about__advantages-text">Мы всегда покупаем автомобили за свои средства. Клиент
+                            оплачивает конечную стоимость автомобиля, только после получения подробных фото с нашей
+                            площадки
+                            и предоставления копии тех паспорта, на котором мы указаны владельцем авто.</div>
+                    </div>
+                    <div class="about__advantages-column">
+                        <div class="about__advantages-icon"><img src="images/icons/card-big.png" alt=""></div>
+                        <div class="about__advantages-text">Все транзакции с нашей компанией осуществляются через банк.
+                            Мы
+                            используем различные формы сделки и конечные поставки автомобилей, такие как аккредитив,
+                            letter
+                            of credit, финальный платёж с арендой банковской ячейки и т.д.</div>
+                    </div>
+                    <div class="about__advantages-column">
+                        <div class="about__advantages-icon"><img src="images/icons/hands-big.png" alt=""></div>
+                        <div class="about__advantages-text">Кроме экспорта автомобилей, мы так же продаем авто на
+                            внутреннем
+                            рынке США. Наш инвенторий на автотрэйдер. Мы так же продаем авто и запчасти на Ebay. У нас
+                            100%
+                            положительные отзывы.</div>
+                    </div>
+                </div>
+            </section>
+            <section class="about__team">
+                <div class="container">
+                    <div class="about__title">
+                        Наша команда
+                    </div>
+                    <div class="about__team-row">
+                        <div class="about__team-column">
+                            <img src="images/data/about-man.jpg" alt="">
+                            <div class="about__team-title">Михаил Михайлович</div>
+                            <div class="about__team-text">Человек, нормальный,
+                                наверное.</div>
+                        </div>
+                        <div class="about__team-column">
+                            <img src="images/data/about-man.jpg" alt="">
+                            <div class="about__team-title">Михаил Михайлович</div>
+                            <div class="about__team-text">Человек, нормальный,
+                                наверное.</div>
+                        </div>
+                        <div class="about__team-column">
+                            <img src="images/data/about-man.jpg" alt="">
+                            <div class="about__team-title">Михаил Михайлович</div>
+                            <div class="about__team-text">Человек, нормальный,
+                                наверное.</div>
+                        </div>
+                        <div class="about__team-column">
+                            <img src="images/data/about-man.jpg" alt="">
+                            <div class="about__team-title">Михаил Михайлович</div>
+                            <div class="about__team-text">Человек, нормальный,
+                                наверное.</div>
+                        </div>
+                        <div class="about__team-column">
+                            <img src="images/data/about-man.jpg" alt="">
+                            <div class="about__team-title">Михаил Михайлович</div>
+                            <div class="about__team-text">Человек, нормальный,
+                                наверное.</div>
+                        </div>
+                    </div>
+                    <div class="show-more">
+                        <a href="#">Перейти в раздел</a>
+                    </div>
+                </div>
+            </section>
+            <section class="about__gallery bg_gray">
+                <div class="about__title">
+                    Наш офис
+                </div>
+                <div class="about__gallery-box">
+                    <div class="about__gallery-item"><img src="images/data/about-1.jpg" alt=""></div>
+                    <div class="about__gallery-item"><img src="images/data/about-2.jpg" alt=""></div>
+                    <div class="about__gallery-item"><img src="images/data/about-3.jpg" alt=""></div>
+                    <div class="about__gallery-item"><img src="images/data/about-4.jpg" alt=""></div>
+                    <div class="about__gallery-item"><img src="images/data/about-5.jpg" alt=""></div>
+                    <div class="about__gallery-item"><img src="images/data/about-1.jpg" alt=""></div>
+                    <div class="about__gallery-item"><img src="images/data/about-2.jpg" alt=""></div>
+                    <div class="about__gallery-item"><img src="images/data/about-3.jpg" alt=""></div>
+                    <div class="about__gallery-item"><img src="images/data/about-4.jpg" alt=""></div>
+                    <div class="about__gallery-item"><img src="images/data/about-5.jpg" alt=""></div>
+                </div>
+                <div class="show-more">
+                    <a href="#">Перейти в галерею</a>
+                </div>
+            </section>
+            <section class="about__clients">
+                <div class="container">
+                    <div class="about__clients-box">
+                        <div class="about__clients-left">
+                            <div class="about__clients-left-box">
+                                <div class="about__clients-left-item"><img src="images/data/client-1.jpg" alt=""></div>
+                                <div class="about__clients-left-item"><img src="images/data/client-2.jpg" alt=""></div>
+                                <div class="about__clients-left-item"><img src="images/data/client-3.jpg" alt=""></div>
+                                <div class="about__clients-left-item"><img src="images/data/client-4.jpg" alt=""></div>
+                                <div class="about__clients-left-item"><img src="images/data/client-5.jpg" alt=""></div>
+                                <div class="about__clients-left-item"><img src="images/data/client-6.jpg" alt=""></div>
+                            </div>
+                            <div class="about__clients-left-column">
+                                <p>Но главным нашим <span>достижением</span> мы считаем наших довольных клиентов.</p>
+                                <p>Мы <span>гордимся</span> тем, что нам удается столько времени радовать наших
+                                    покупателей.
+                                </p>
+                                <p>С каждым годом мы стремимся становится только лучше именно для вас. </p>
+                                <p>Отзывы наших клиентов <span>100% достоверные</span>.</p>
+                                <p>Это далеко не полный список, но это все абсолютно <span>реальные</span> люди и мы
+                                    можем связать Вас практически с каждым из них.</p>
+                            </div>
+                        </div>
+                        <div class="about__clients-right">
+                            <div class="about__clients-right-column">
+                                <p>Вы можете запросить контакты 3-5 любых наших клиентов, и мы предоставим вам их
+                                    контактную информацию, чтобы подтвердить их достоверность.</p>
+                                <p>Наши клиенты позволяют нам давать их контактную информацию новым покупателям, и мы им
+                                    за это очень <span>благодарны.</span> </p>
+                                <p>Надеемся, что эта информация поможет вам сделать <span>правильный</span> выбор при
+                                    выборе поставщика автомобиля из США и Канады.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="show-more">
+                            <a href="#">Перейти в раздел</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <!-- content end -->
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__left">
+                <div class="footer__logo">
+                    <a href="#" class="footer-logo"><img src="images/data/logo.png" alt=""></a>
+                </div>
+                <div class="footer__socials-box">
+                    <ul class="footer-socials list-unstyled list-inline">
+                        <li><a href="https://twitter.com/AutoBazarUs" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-twitter-icon.png" alt=""></a></li>
+                        <li><a href="http://www.youtube.com/subscription_center?add_user=autobazarus" class="soc-link"
+                                target="blank"><img src="images/icons/footer-youtube-icon.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/autobazar.ru" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-vk-icon.png" alt=""></a></li>
+                        <li><a href="http://vk.com/autobazargroup" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-fb-icon.png" alt=""></a></li>
+                        <li><a href="https://plus.google.com/+autobazarus/posts" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-instagram-icon.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__right">
+                <div class="footer__sitemap">
+                    <a href="#">Карта сайта</a>
+                    <a href="javascript:;" data-fancybox data-src="#modal">Стать диллером</a>
+                </div>
+                <div class="footer__search">
+                    <form>
+                        <input type="text" class="search-input" placeholder="Поиск">
+                    </form>
+                    <div class="footer-languages">
+                        <div class="language-select">
+                            <a class="dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki">Русский </a>
+                                </li>
+                                <li><a href="/en/purchasing-process"> English
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2002-2019 AutoBazar.US
+        </div>
+    </footer>
+
+    <!--модальные окна-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="login">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">Вход</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль" class="form-control">
+                        </div>
+                        <div class="form-group ">
+                            <p class="alert alert-danger">Неверный e-mail или пароль</p>
+                        </div><br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" value="Вход">
+                                    <a href="#" class="dashed " data-toggle="modal" data-target="#reg">Регистрация</a>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group ">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="check">
+                                        <label><input type="checkbox"> запомнить меня</label>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="text-right"><a href="#" class="dashed" data-toggle="modal"
+                                            data-target="#forget">Забыли пароль</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="reg">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">Регистрация</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Имя" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль еще раз" class="form-control">
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" class="btn btn-solid btn-primary btn-inline btn2"
+                                        value="Регистрация">
+                                    <a href="#" class="dashed " data-toggle="modal" data-target="#login">Войти</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="forget">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">напоминание пароль</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group ">
+                            <p class="alert alert-success">На указанный e-mail отправлено письмо с паролем</p>
+                        </div><br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" value="Отправить">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script> -->
+    <script src="js/fotorama.js"></script>
+    <!-- <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/blockUI.js"></script>
+    <script src="js/notify.min.js"></script>
+    <script src="js/underscore.js"></script> -->
+    <script src="js/fancybox.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

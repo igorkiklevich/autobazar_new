@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Процесс Покупки</title>
+    <meta name="keywords" content="">
+    <meta property="og:title" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:image" content="" />
+    <meta property="fb:app_id" content="">
+    <meta name="csrf-token" content="">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/fotorama.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/libs.css">
+</head>
+
+<body class="process-pokupki">
+    <!-- header -->
+    <header class="header">
+        <div class="nav">
+            <div class="header__top">
+                <!--top navigation-->
+                <div class="container">
+                    <div class="logo">
+                        <a href="#"><img src="images/data/logo.png" alt=""></a>
+                    </div>
+                    <div class="header__zakaz-box">
+                        <a class="zakaz-box__zayavka" href="javascript:;" data-fancybox data-src="#modal">Заявка на
+                            авто</a>
+                        <a class="zakaz-box__zvonok" href="javascript:;" data-fancybox data-src="#modal">Заказать
+                            звонок</a>
+                    </div>
+                    <div class="header__phones">
+                        <div class="header__phones-box">
+                            <a href="tel:+14402125612">+1 (440) 212-5612 (USA)</a>
+                            <a href="tel:+74991235732 ">+7 (499) 123-5732 (RUS)</a>
+                        </div>
+                    </div>
+                    <div class="header__social">
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                    </div>
+                    <div class="header__dealer">
+                        <a href="javascript:;" data-fancybox data-src="#modal">Стать дилером</a>
+                    </div>
+                    <div class="header__nav">
+                        <div class="language-select">
+                            <a class="btn btn-link dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki"> Русский
+                                    </a>
+                                </li>
+                                <li><a href="/en/purchasing-process"> English
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="header__login">
+                            <a href="javascript:;" data-fancybox data-src="#login">Вход</a>
+                        </div>
+                    </div>
+                    <div class="header__mobile">
+                        <a href="#" class="menu-toggle">Menu</a>
+                    </div>
+                </div>
+            </div>
+            <!--main menu-->
+            <div class="header__bottom">
+                <div class="container">
+                    <ul class="main-menu list-unstyled">
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Новые авто</a>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Авто с пробегом</a>
+                            <ul class="main-submenu list-unstyled">
+                                <li class="main-submenu-item">
+                                    <a href="#">Авто с аукционов</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Б/У авто в наличии</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Последние продажи</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Услуги</a>
+                            <ul class="main-submenu list-unstyled">
+                                <li class="main-submenu-item">
+                                    <a href="#">Авто с аукционов</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Процесс покупки</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Доставка</a>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">О нас</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="header__search">
+                        <button class="search-toggle">
+                            <span class="icon search-icon"></span></button>
+                        <div class="search-popup">
+                            <div class="search">
+                                <form>
+                                    <input type="text" name="search" placeholder="Поиск">
+                                    <input type="submit" value="" class="search-submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--mobile box-->
+            <div class="header__mobile-box">
+                <div>
+                    <div class="header__phones">
+                        <div class="header__phones-box">
+                            <a href="tel:+14402125612">+1 (440) 212-5612 (USA)</a>
+                            <a href="tel:+74991235732 ">+7 (499) 123-5732 (RUS)</a>
+                        </div>
+                    </div>
+                    <div class="header__social">
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                    </div>
+                    <div class="header__dealer">
+                        <a href="javascript:;" data-fancybox data-src="#modal">Стать дилером</a>
+                    </div>
+                    <div class="header__search">
+                        <form>
+                            <input type="text" class="search-input" placeholder="Поиск">
+                        </form>
+                    </div>
+                    <div class="header__nav">
+                        <div class="language-select">
+                            <a href="#" class="btn btn-link dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki">
+                                        Русский </a>
+                                </li>
+                                <li><a href="/en/purchasing-process">
+                                        English
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="header__login">
+                            <a href="javascript:;" data-fancybox data-src="#login">Вход</a>
+                        </div>
+                    </div>
+                    <div class="header__mobile-menu">
+                        <ul class="main-menu list-unstyled">
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Новые авто</a>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Авто с пробегом</a>
+                                <ul class="main-submenu list-unstyled">
+                                    <li class="main-submenu-item">
+                                        <a href="#">Авто с аукционов</a>
+                                    </li>
+                                    <li class="main-submenu-item">
+                                        <a href="#">Б/У авто в наличии</a>
+                                    </li>
+                                    <li class="main-submenu-item">
+                                        <a href="#">Последние продажи</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Услуги</a>
+                                <ul class="main-submenu list-unstyled">
+                                    <li class="main-submenu-item">
+                                        <a href="#">Авто с аукционов</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Процесс покупки</a>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Доставка</a>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">О нас</a>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> <!-- header end -->
+
+    <section class="top-block">
+        <!-- top-block -->
+        <div class="top-block__wrapper" style="background-image: url(images/data/process-preview-img.jpg)">
+            <div class="container">
+                <h1>Процесс Покупки</h1>
+            </div>
+        </div>
+    </section><!-- top-block end -->
+
+    <!-- content -->
+    <main class="main">
+        <section class="content">
+            <section class="bg_gray">
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li class="active"><a href="#">Процесс покупки</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="process-pokupki__tabs">
+                <div class="container__inner">
+                    <div class="main__subtitle">
+                        Если вы решили купить автомобиль из США настоятельно рекомендуем прочитать
+                        описание процесса покупки и доставки машины из Америки
+                    </div>
+                </div>
+                <div class="process-pokupki__tabs-row">
+                    <div class="process-pokupki__tab active" data-id="process-pokupki__tab-1">
+                        Новые автомобили
+                    </div>
+                    <div class="process-pokupki__tab" data-id="process-pokupki__tab-2">
+                        Авто с пробегом
+                    </div>
+                    <div class="process-pokupki__tab" data-id="process-pokupki__tab-3">
+                        Авто с аукционов
+                    </div>
+                </div>
+                <div class="tabs-content active-tab" id="process-pokupki__tab-1">
+                    <div class="container__inner">
+                        <div class="tabs-content-box">
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-8.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title">ЗАЯВКА и подбор ТС
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>Вы заполняете Заявку на покупку ТС. В заявке постарайтесь развернуто описать
+                                            интересующий Вас новый авто. </p>
+                                        <p> Вы можете самостоятельно рассчитать стоимость любого нового автомобиля на
+                                            рынке
+                                            США на странице <a href="#">"Как узнать цену на новый авто"</a>.
+                                        </p>
+                                        <p>
+                                            Построив авто на сайте производителя, Вы можете написать нам на наш е-мэйл
+                                            info@autobazar.us, приложить спецификацию интересующего Вас нового
+                                            автомобиля и
+                                            указать Ваш контактный номер для связи.
+                                        </p>
+                                        <p>
+                                            После получения Вашей Заявки, наш менеджер свяжется с Вами по указанному
+                                            телефону, поможет сконфигурировать интересующий Вас новый автомобиль и
+                                            рассчитает стоимость и условия поставки.
+                                        </p>
+                                        <p>Мы гарантируем MSRP price (заводскую цену), за исключением только что
+                                            вышедших
+                                            или еще не вышедших в продажу автомобилей. Это очевидно, что приобрести
+                                            такие
+                                            авто крайне сложно, порой для их покупки записываются в очередь за несколько
+                                            месяцев, поэтому возникают дополнительные расходы.</p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-3.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title"> ДОГОВОР ЗАДАТКА
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>После согласования условий поставки, мы заключаем с Вами Договор Задатка и Вы
+                                            переводите залог на наш счет, либо оставляете его у наших представителей
+                                            (обычно
+                                            это 10 % от стоимости).</p>
+
+                                        <p>В Договоре Задатка мы отразим полную комплектацию ТС и стоимость. После
+                                            получения
+                                            Вашего авансового платежа, мы подбираем новый авто в наличии у официальных
+                                            дилеров согласно Ваших пожеланий, либо размещаем заказ в производство и
+                                            присылаем Вам подтверждение заказа.</p>
+
+                                        <p>Производство нового автомобиля по Вашей спецификации гарантирует полное
+                                            соответствие всех Ваших пожеланий.</p>
+
+                                        <p>Если же мы подбираем новый авто в наличии у официальных дилеров, то некоторые
+                                            опции могут не совпадать с желаемыми. В любом случае мы предоставляем нашим
+                                            клиентам большой выбор вариантов и покупаем конкретный новый авто из США
+                                            только
+                                            после согласования и одобрения клиента.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-5.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title"> Оплата тс после выкупа
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>Мы оплачиваем согласованный автомобиль в наличии, или пришедший с завода по
+                                            нашему заказу к официальному дилеру из собственных средств.</p>
+                                        <p>Привозим новый авто к себе на площадку, готовим Вам подробный фото и видео
+                                            отчёт,
+                                            копию оконного стикера с ВИН номером, всеми опциями и MSRP price, и
+                                            присылаем
+                                            Вам вместе в основным договором и инвойсом на оплату.</p>
+                                        <p>Полную оплату нового автомобиля из Америки Вы должны осуществить в течении
+                                            пяти
+                                            банковских дней.
+                                        </p>
+                                        <p>По желанию клиента, мы можем укомплектовать его новый автомобиль различными
+                                            аксессуарами, дополнительным комплектом колес и дисков, элементами тюнинга.
+                                            Более подробную информацию и фото наших работ смотрите в разделе Авто
+                                            Тюнинг.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-6.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title">ТРАНСПОРТИРОВКА
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>После получения нами полной оплаты, мы грузим в контeйнер и отправляем Ваш
+                                            новый
+                                            авто в заранее согласованный порт доставки.</p>
+                                        <p>Цены на доставку морем и автовозами вы можете узнать в разделе
+                                            «транспортировка».
+                                        </p>
+                                        <p>В процессе перемещения контейнера Вы сможете самостоятельно отслеживать его
+                                            текущее местонахождение и предполагаемую дату прибытия на странице <a
+                                                href="#">Отслеживание Контейнеров</a>.</p>
+                                        <p>Мы так же можем предложить нашим клиентам Авиа доставку. Стоимость авиа
+                                            перевозки
+                                            рассчитывается индивидуально по запросу.</p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-7.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title"> ТАМОЖНЯ И РЕГИСТРАЦИЯ
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>По прибытии авто в пункт назначения, Вы, на основании полученных
+                                            документов,
+                                            осуществляете таможенную очистку и регистрацию автомобиля самостоятельно
+                                            или
+                                            с
+                                            помощью наших таможенных брокеров.</p>
+
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-content" id="process-pokupki__tab-2">
+                    <div class="container__inner">
+                        <div class="tabs-content-box">
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-8.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title">ВЫБОР АВТО В НАЛИЧИИ
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>Выберите интересующий Вас автомобиль в разделе АВТО В НАЛИЧИИ. На странице
+                                            описания авто лота нажмите кнопку "ЗАКАЗАТЬ" и заполните форму заказа с
+                                            указанием всех регистрационных данных.</p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-3.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title"> ПОДТВЕРЖДЕНИЕ ЗАКАЗА
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>После этого на Ваш e-mail поступит запрос о подтверждении с указанными
+                                            параметрами заказа.Только подтвержденные заказы принимаются менеджерами в
+                                            работу.</p>
+                                        <p>После подтверждения заказа с Вами свяжется сотрудник Департамента продаж
+                                            компании. С ним Вы оговариваете детали заказа и задаете любые интересующие
+                                            Вас
+                                            вопросы.</p>
+                                        <p>Также Вы можете запросить любую дополнительную информацию об интересующем Вас
+                                            автомобиле.</p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-5.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title"> ДОГОВОР КУПЛИ-ПРОДАЖИ
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>Если Вас устраивает выбранный вариант, с Вами заключается Договор
+                                            купли-продажи,
+                                            на основании которого Вы осуществляете банковский перевод на расчетный счет
+                                            компании или одному из представителей компании в Вашем регионе.</p>
+                                        <p>Автомобили со склада в США подлежат 100% предоплате, включая стоимость
+                                            доставки в
+                                            выбранный Вами порт.</p>
+                                        <p>Цена автомобилей на складе уже включает в себя наши комиссионные, но не
+                                            включает
+                                            стоимость доставки в порт назначения.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-6.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title">ТРАНСПОРТИРОВКА
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>В течение 3-10 рабочих дней после получения оплаты, автомобиль упаковывается
+                                            и
+                                            загружается в контейнер для отправки в выбранный Вами порт.</p>
+                                        <p>После затамаживания контейнера Таможенной Службой США, погрузки его на судно,
+                                            Вы
+                                            получаете экспресс-почтой оригинал техпаспорта (Title) и погрузочный
+                                            документ
+                                            (Dock receipt), в котором указан номер контейнера и порт назначения.
+                                        </p>
+                                        <p>В процессе перемещения контейнера Вы сможете самостоятельно отслеживать его
+                                            текущее местонахождение и предполагаемую дату прибытия на странице <a
+                                                href="#">Отслеживание Контейнеров</a>.</p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-7.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title"> ТАМОЖНЯ И РЕГИСТРАЦИЯ
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>По прибытии авто в пункт назначения, Вы, на основании полученных
+                                            документов,
+                                            осуществляете таможенную очистку и регистрацию автомобиля самостоятельно
+                                            или
+                                            с
+                                            помощью наших таможенных брокеров.</p>
+
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-content" id="process-pokupki__tab-3">
+                    <div class="container__inner">
+                        <div class="tabs-content-box">
+
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-1.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title">ЗАЯВКА
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>Просим принять во внимание, что представленные результаты поиска – это
+                                            всего
+                                            лишь
+                                            50% от общего количества автомобилей, которые реально участвуют в
+                                            аукционе.</p>
+                                        <p> Вы также можете заказать авто в свободной форме, не привязываясь к
+                                            конкретному
+                                            лоту.
+                                            Это значительно расширит диапазон и возможности поиска требуемого
+                                            автомобиля.
+
+                                            Для этого воспользуйтесь <a href="#">ФОРМОЙ ЗАЯВКИ НА ПОКУПКУ АВТО</a>.
+                                        </p>
+                                        <p>
+                                            В заявке на авто укажите марку, модель, год, цвет кузова/салона,
+                                            максимальный
+                                            пробег, опции по желанию.
+                                        </p>
+                                        <p>
+                                            При этом основная Ваша задача - четко сформулировать критерии поиска,
+                                            разделив
+                                            их на
+                                            обязательные и желаемые.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-2.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title">Поиск авто
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>
+                                            Для поиска желаемого автомобиля перейдите в раздел <a href="#">«Поддержанные
+                                                авто с
+                                                аукционов». </a>
+                                        </p>
+                                        <p>На ней вы можете воспользоваться поиском, проставить фильтры на
+                                            интересующие
+                                            Вас
+                                            параметры, добавить автомобили в виртуальный «гараж» для дальнейшего
+                                            сравнения.</p>
+
+                                        <p>Затем на странице описания выбранного Вами лота нажмите кнопку «ЗАКАЗАТЬ»
+                                            и
+                                            заполните форму заказа с указанием Вашей максимальной ставки на торгах
+                                            аукциона
+                                            и
+                                            регистрационных данных.</p>
+
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-3.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title">Подтверждение заказа
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>После этого на Ваш e-mail поступит запрос о подтверждении с указанными
+                                            параметрами
+                                            заказа.</p>
+
+                                        <p>После подтверждения заказа с Вами свяжется сотрудник Департамента продаж
+                                            компании.</p>
+
+                                        <p>С ним Вы оговариваете детали заказа и задаете любые интересующие Вас
+                                            вопросы.</p>
+
+                                        <p>Менеджер по продажам поможет вам сделать правильный выбор проанализировав
+                                            цены
+                                            на
+                                            проданные автомобили этой модели, проверив историю машины по её
+                                            VIN-номеру
+                                            и/или
+                                            заказав сертифицированного механика для оценки состояния конкретной
+                                            машины.</p>
+
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-4.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title"> ДОГОВОР ЗАДАТКА
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>Не позднее чем за 36 часов до начала аукциона, Вы должны заключить
+                                            Договор
+                                            Задатка,
+                                            на основании которого Вы вносите задаток, сумма которого зависит от
+                                            стоимости
+                                            заказываемого Вами автомобиля и составляет 10%-15% от предполагаемой
+                                            стоимости
+                                            авто,
+                                            но не менее $1000 долларов США.</p>
+
+                                        <p>Задаток является подтверждением серьезности Ваших намерений о заказе.</p>
+
+                                        <p>Только после подтверждения и получения задатка мы начнем работу по Вашему
+                                            заказу.</p>
+
+                                        <p>Начальный взнос можно оставить у официальных представителей AutoBazar.US
+                                            в
+                                            Вашем
+                                            регионе, либо перевести сумму нa банковский счёт нашей компании в США.
+                                        </p>
+
+                                        <p>В случае выигрыша на аукционе, начальный взнос идёт в счёт конечной
+                                            стоимости
+                                            автомобиля.</p>
+
+                                        <p>В случае, если лот не выигрывается за указанную Вами Максимальную Ставку,
+                                            начальный
+                                            взнос возвращается по Вашему желанию (при этом Вы покрываете расходы по
+                                            переводу
+                                            денег $25), либо остаётся в AutoBazar.US до следующего аукциона.</p>
+
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-5.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title"> Оплата
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>После того, как автомобиль выигран на аукционе клиент подписывает договор
+                                            купли/продажи и переводит остаточную сумму денег в течение 2-х рабочих
+                                            дней.
+                                            В
+                                            эту
+                                            цену входят:</p>
+
+                                        <p>- Цена, за которую менеджер по продажам выиграл лот.</p>
+
+                                        <p> - Налог аукциона в размере от $200 до $500, в зависимости от конечной
+                                            стоимости
+                                            лота</p>
+
+                                        <p> - Комиссионные нашей компании $950 за один лот</p>
+
+                                        <p>- Транспортировка автомобиля по территории США от аукциона в порт
+                                            отправки</p>
+
+                                        <p>- Транспортировка автомобиля из США в порт назначения СНГ или Европы
+                                            (либо
+                                            непосредственно в город назначения)</p>
+
+                                        <p>- Страхование морской перевозки 2.5% от заявленной стоимости автомобиля
+                                            (по
+                                            желанию
+                                            клиента)</p>
+
+                                        <p> - Почтовые услуги по пересылке документов $40-$75</p>
+
+                                        <p>В случае, если клиент не переводит деньги в течение 2-х рабочих дней, он
+                                            покрывает
+                                            стоянку лота на аукционе в размере $35 за каждые следующие сутки.</p>
+
+                                        <p>В случае, если клиент по каким-либо причинам отказывается внести
+                                            остаточную
+                                            сумму,
+                                            Export Auto Motors удерживает начальный взнос.</p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-6.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title">ТРАНСПОРТИРОВКА
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>В течение 3-10 рабочих дней после получения оплаты, автомобиль
+                                            упаковывается
+                                            и
+                                            загружается в контейнер для отправки в выбранный Вами порт.</p>
+
+                                        <p>После затамаживания контейнера Таможенной Службой США, погрузки его на
+                                            судно, Вы
+                                            получаете экспресс-почтой оригинал техпаспорта (Title) и погрузочный
+                                            документ
+                                            (Dock
+                                            receipt), в котором указан номер контейнера и порт назначения.</p>
+
+                                        <p>В процессе перемещения контейнера Вы сможете самостоятельно отслеживать
+                                            его
+                                            текущее
+                                            местонахождение и предполагаемую дату прибытия на странице
+                                            <a href="#">Отслеживание
+                                                Контейнеров</a>.</p>
+
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-7.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title"> ТАМОЖНЯ И РЕГИСТРАЦИЯ
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>По прибытии авто в пункт назначения, Вы, на основании полученных
+                                            документов,
+                                            осуществляете таможенную очистку и регистрацию автомобиля самостоятельно
+                                            или
+                                            с
+                                            помощью наших таможенных брокеров.</p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                        </div>
+                    </div>
+                </div>
+                <div class="main__subtitle">
+                    С процессом <a href="#">транспортировки</a> вы можете ознакомиться в соответствующем разделе.
+                </div>
+            </section>
+        </section>
+    </main>
+    <!-- content end -->
+
+    <section class="page-bottom__form">
+        <div class="page-bottom" style="background-image: url(images/data/questions-form-bg.jpg);">
+            <div class="container">
+                <div class="about__title">
+                    Не нашли что искали?
+                </div>
+                <div class="page-bottom-subtitle">
+                    Оставьте заявку на консультацию, и мы свяжемся с вами в ближайшее время
+                </div>
+                <div class="page-bottom-form-box">
+                    <form>
+                        <input type="text" placeholder="ФИО*">
+                        <input type="text" placeholder="Номер телефона*">
+                        <input type="text" placeholder="E-mail*">
+                        <button class="btn-form">
+                            Отправить заявку
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__left">
+                <div class="footer__logo">
+                    <a href="#" class="footer-logo"><img src="images/data/logo.png" alt=""></a>
+                </div>
+                <div class="footer__socials-box">
+                    <ul class="footer-socials list-unstyled list-inline">
+                        <li><a href="https://twitter.com/AutoBazarUs" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-twitter-icon.png" alt=""></a></li>
+                        <li><a href="http://www.youtube.com/subscription_center?add_user=autobazarus" class="soc-link"
+                                target="blank"><img src="images/icons/footer-youtube-icon.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/autobazar.ru" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-vk-icon.png" alt=""></a></li>
+                        <li><a href="http://vk.com/autobazargroup" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-fb-icon.png" alt=""></a></li>
+                        <li><a href="https://plus.google.com/+autobazarus/posts" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-instagram-icon.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__right">
+                <div class="footer__sitemap">
+                    <a href="#">Карта сайта</a>
+                    <a href="javascript:;" data-fancybox data-src="#modal">Стать диллером</a>
+                </div>
+                <div class="footer__search">
+                    <form>
+                        <input type="text" class="search-input" placeholder="Поиск">
+                    </form>
+                    <div class="footer-languages">
+                        <div class="language-select">
+                            <a class="dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki">Русский </a>
+                                </li>
+                                <li><a href="/en/purchasing-process"> English
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2002-2019 AutoBazar.US
+        </div>
+    </footer>
+
+    <!--модальные окна-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="login">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">Вход</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль" class="form-control">
+                        </div>
+                        <div class="form-group ">
+                            <p class="alert alert-danger">Неверный e-mail или пароль</p>
+                        </div><br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" value="Вход">
+                                    <a href="#" class="dashed " data-toggle="modal" data-target="#reg">Регистрация</a>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group ">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="check">
+                                        <label><input type="checkbox"> запомнить меня</label>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="text-right"><a href="#" class="dashed" data-toggle="modal"
+                                            data-target="#forget">Забыли пароль</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="reg">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">Регистрация</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Имя" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль еще раз" class="form-control">
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" class="btn btn-solid btn-primary btn-inline btn2"
+                                        value="Регистрация">
+                                    <a href="#" class="dashed " data-toggle="modal" data-target="#login">Войти</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="forget">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">напоминание пароль</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group ">
+                            <p class="alert alert-success">На указанный e-mail отправлено письмо с паролем</p>
+                        </div><br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" value="Отправить">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script> -->
+    <script src="js/fotorama.js"></script>
+    <!-- <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/blockUI.js"></script>
+    <script src="js/notify.min.js"></script>
+    <script src="js/underscore.js"></script> -->
+    <script src="js/fancybox.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

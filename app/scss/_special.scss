@@ -1,0 +1,69 @@
+.special__car-block-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .about__title {
+        color: #fff;
+        margin-bottom: 38px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: all .3s;
+    }
+}
+
+.special__car-block-item {
+    width: 379px;
+    height: 300px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:before {
+        @extend %hover-before;
+    }
+
+    &:hover {
+        &:before {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        img {
+            transform: scale(1.05);
+            opacity: .8;
+        }
+        .about__title{
+            transform: translateY(-40px);
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: none;
+    }
+
+    &:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    a {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+}
+
+.special__main .show-more {
+    margin-top: 50px;
+}
+
+.special__text-block ul.type-content {
+    margin-bottom: 0;
+}
