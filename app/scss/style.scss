@@ -1007,6 +1007,7 @@ table thead td {
     line-height: 1.42857143;
     font-size: 14px;
     color: #000;
+    text-align: center;
 }
 
 .table-striped>tbody tr:nth-child(odd) {
@@ -1041,7 +1042,6 @@ table thead td {
         margin-bottom: 0;
     }
 }
-
 .about__title {
     @extend %content_text-heading;
     color: #000;
