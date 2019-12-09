@@ -1,0 +1,102 @@
+<!--модальные окна-->
+<div class="modal fade" tabindex="-1" role="dialog" id="login">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h4 class="modal-title text-center">Вход</h4>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="E-mail" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Пароль" class="form-control">
+                    </div>
+                    <div class="form-group ">
+                        <p class="alert alert-danger">Неверный e-mail или пароль</p>
+                    </div><br />
+                    <div class="form-group">
+                        <div class="container-fluid">
+                            <div class="row text-center">
+                                <input type="submit" value="Вход">
+                                <a href="#" class="dashed " data-toggle="modal" data-target="#reg">Регистрация</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group ">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="check">
+                                    <label><input type="checkbox"> запомнить меня</label>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="text-right"><a href="#" class="dashed" data-toggle="modal"
+                                        data-target="#forget">Забыли пароль</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" id="reg">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h4 class="modal-title text-center">Регистрация</h4>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Имя" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="E-mail" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Пароль" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Пароль еще раз" class="form-control">
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <div class="container-fluid">
+                            <div class="row text-center">
+                                <input type="submit" class="btn btn-solid btn-primary btn-inline btn2"
+                                    value="Регистрация">
+                                <a href="#" class="dashed " data-toggle="modal" data-target="#login">Войти</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" id="forget">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h4 class="modal-title text-center">напоминание пароль</h4>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="E-mail" class="form-control">
+                    </div>
+                    <div class="form-group ">
+                        <p class="alert alert-success">На указанный e-mail отправлено письмо с паролем</p>
+                    </div><br />
+                    <div class="form-group">
+                        <div class="container-fluid">
+                            <div class="row text-center">
+                                <input type="submit" value="Отправить">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
