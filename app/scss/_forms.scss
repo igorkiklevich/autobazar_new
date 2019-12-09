@@ -156,8 +156,72 @@
         color: #fff;
     }
 }
-body input, body textarea{
+
+body input,
+body textarea {
     font-size: 14px;
     border-radius: 0;
     -webkit-appearance: none;
+}
+
+//popup
+#popup-landing {
+    max-width: 698px;
+    min-height: 522px;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 38px 70px 70px;
+
+    form {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        input {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 27px;
+            padding: 30px 0 0px 5px;
+            letter-spacing: 0.1em;
+            text-transform: capitalize;
+            color: #fff;
+            background: none;
+            border: none;
+            border-bottom: 1px solid #fff;
+            width: 259px;
+            margin-bottom: 10px;
+
+            &:nth-child(3),
+            &:first-child {
+                margin-right: 40px;
+            }
+
+            &::placeholder {
+                color: rgba(#fff, .4);
+                font-weight: 300;
+            }
+        }
+
+        button {
+            border: 2px solid $orange;
+            text-align: center;
+            padding: 10px 26px 10px;
+            color: $orange;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 14px;
+            display: inline-block;
+            line-height: 16px;
+            cursor: pointer;
+            min-width: 220px;
+            color: #fff;
+            background: none;
+            margin-top: 42px;
+
+            &:hover {
+                background: rgba($orange, .4)
+            }
+        }
+    }
 }

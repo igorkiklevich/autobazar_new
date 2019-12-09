@@ -355,7 +355,7 @@
 }
 
 header.header-landing {
-    .header__top{
+    .header__top {
         padding: 0;
         background: $footer_bg;
     }
@@ -481,9 +481,11 @@ header.header-landing {
         background: #fff;
     }
 }
-.header__mobile-box{
+
+.header__mobile-box {
     display: none;
 }
+
 .menu-opened .header__mobile-box {
     transform: translateX(-241px);
     height: 100%;
@@ -1042,6 +1044,7 @@ table thead td {
         margin-bottom: 0;
     }
 }
+
 .about__title {
     @extend %content_text-heading;
     color: #000;
@@ -1188,12 +1191,43 @@ ul.type-content {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 0;
     left: 0;
     z-index: 1050;
     display: none;
     overflow: hidden;
     outline: 0;
+    .fancybox-close-small{
+        display: none;
+    }
+}
+
+.popup-landing__title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 14px;
+
+    span {
+        font-weight: 300;
+        letter-spacing: 0.1em;
+    }
+}
+
+.popup-landing__subtitle {
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 9px;
+    text-align: left;
+    color: #FFFFFF;
+}
+#popup-zayavka, #popup-zvonok{
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 1039px;
+    margin: 0 auto;
+    padding: 70px 40px;
 }
 
 @import "media";

@@ -81,6 +81,10 @@
 }
 
 @media (max-width:1200px) {
+    #popup-landing {
+        padding: 38px 30px 70px;
+    }
+
     .container {
         padding: 0 20px;
     }
@@ -1619,6 +1623,10 @@
     .footer-landing {
         padding-top: 56px;
     }
+
+    .modal .fancybox-close-small {
+        display: block;
+    }
 }
 
 @media(max-width:950px) {
@@ -1793,6 +1801,9 @@
         &::after {
             right: 0;
         }
+    }
+    #popup-zayavka, #popup-zvonok{
+        padding: 70px 0;
     }
 }
 
@@ -2353,6 +2364,15 @@
 }
 
 @media(max-width:722px) {
+    .popup-landing__title {
+        font-size: 36px;
+    }
+
+    .popup-landing__subtitle {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
     .special__car-block-item {
         &:nth-child(2n) {
             margin-right: 0;
@@ -2529,6 +2549,16 @@
     .header-landing__slogan {
         font-size: 12px;
         line-height: 14px;
+    }
+
+    #popup-landing form input {
+
+        &:nth-child(3),
+        &:first-child {
+            margin-right: 0;
+        }
+
+        width: 100%;
     }
 }
 
@@ -2809,6 +2839,11 @@
 
     .header-landing .header__mobile {
         top: -11px;
+    }
+
+    .popup-landing__title {
+        line-height: 50px;
+        padding-bottom: 25px;
     }
 }
 
@@ -3171,6 +3206,17 @@
 
     .video__column img {
         min-width: 280px;
+    }
+    #popup-landing {
+        padding: 25px 15px 40px;
+    }
+    .popup-landing__title {
+        line-height: 37px;
+        font-size: 31px;
+    }
+    .popup-landing__subtitle {
+        font-size: 14px;
+        line-height: 18px;
     }
 }
 
