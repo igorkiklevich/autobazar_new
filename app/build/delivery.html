@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Процесс Покупки</title>
+    <meta name="keywords" content="">
+    <meta property="og:title" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:image" content="" />
+    <meta property="fb:app_id" content="">
+    <meta name="csrf-token" content="">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/fotorama.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/libs.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="nav">
+            <div class="header__top">
+                <!--top navigation-->
+                <div class="container">
+                    <div class="logo">
+                        <a href="#"><img src="images/data/logo.png" alt=""></a>
+                    </div>
+                    <div class="header__zakaz-box">
+                        <a class="zakaz-box__zayavka" href="javascript:;" data-fancybox data-src="#modal">Заявка на
+                            авто</a>
+                        <a class="zakaz-box__zvonok" href="javascript:;" data-fancybox data-src="#modal">Заказать
+                            звонок</a>
+                    </div>
+                    <div class="header__phones">
+                        <div class="header__phones-box">
+                            <a href="tel:+14402125612">+1 (440) 212-5612 (USA)</a>
+                            <a href="tel:+74991235732 ">+7 (499) 123-5732 (RUS)</a>
+                        </div>
+                    </div>
+                    <div class="header__social">
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                    </div>
+                    <div class="header__dealer">
+                        <a href="javascript:;" data-fancybox data-src="#modal">Стать дилером</a>
+                    </div>
+                    <div class="header__nav">
+                        <div class="language-select">
+                            <a class="btn btn-link dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki"> Русский
+                                    </a>
+                                </li>
+                                <li><a href="/en/purchasing-process"> English
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="header__login">
+                            <a href="javascript:;" data-fancybox data-src="#login">Вход</a>
+                        </div>
+                    </div>
+                    <div class="header__mobile">
+                        <a href="#" class="menu-toggle">Menu</a>
+                    </div>
+                </div>
+            </div>
+            <!--main menu-->
+            <div class="header__bottom">
+                <div class="container">
+                    <ul class="main-menu list-unstyled">
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Новые авто</a>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Авто с пробегом</a>
+                            <ul class="main-submenu list-unstyled">
+                                <li class="main-submenu-item">
+                                    <a href="#">Авто с аукционов</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Б/У авто в наличии</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Последние продажи</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Услуги</a>
+                            <ul class="main-submenu list-unstyled">
+                                <li class="main-submenu-item">
+                                    <a href="#">Авто с аукционов</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Процесс покупки</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Доставка</a>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">О нас</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="header__search">
+                        <button class="search-toggle">
+                            <span class="icon search-icon"></span></button>
+                        <div class="search-popup">
+                            <div class="search">
+                                <form>
+                                    <input type="text" name="search" placeholder="Поиск">
+                                    <input type="submit" value="" class="search-submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--mobile box-->
+            <div class="header__mobile-box">
+                <div>
+                    <div class="header__phones">
+                        <div class="header__phones-box">
+                            <a href="tel:+14402125612">+1 (440) 212-5612 (USA)</a>
+                            <a href="tel:+74991235732 ">+7 (499) 123-5732 (RUS)</a>
+                        </div>
+                    </div>
+                    <div class="header__social">
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                    </div>
+                    <div class="header__dealer">
+                        <a href="javascript:;" data-fancybox data-src="#modal">Стать дилером</a>
+                    </div>
+                    <div class="header__search">
+                        <form>
+                            <input type="text" class="search-input" placeholder="Поиск">
+                        </form>
+                    </div>
+                    <div class="header__nav">
+                        <div class="language-select">
+                            <a href="#" class="btn btn-link dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki">
+                                        Русский </a>
+                                </li>
+                                <li><a href="/en/purchasing-process">
+                                        English
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="header__login">
+                            <a href="javascript:;" data-fancybox data-src="#login">Вход</a>
+                        </div>
+                    </div>
+                    <div class="header__mobile-menu">
+                        <ul class="main-menu list-unstyled">
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Новые авто</a>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Авто с пробегом</a>
+                                <ul class="main-submenu list-unstyled">
+                                    <li class="main-submenu-item">
+                                        <a href="#">Авто с аукционов</a>
+                                    </li>
+                                    <li class="main-submenu-item">
+                                        <a href="#">Б/У авто в наличии</a>
+                                    </li>
+                                    <li class="main-submenu-item">
+                                        <a href="#">Последние продажи</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Услуги</a>
+                                <ul class="main-submenu list-unstyled">
+                                    <li class="main-submenu-item">
+                                        <a href="#">Авто с аукционов</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Процесс покупки</a>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Доставка</a>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">О нас</a>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> <!-- header end -->
+
+    <section class="top-block">
+        <!-- top-block -->
+        <div class="top-block__wrapper" style="background-image: url(images/data/delivery-preview-img.jpg)">
+            <div class="container">
+                <h1>Доставка</h1>
+            </div>
+        </div>
+    </section><!-- top-block end -->
+
+    <!-- content -->
+    <main class="main delivery__main">
+        <section class="content">
+            <section>
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li class="active"><a href="#">Доставка</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="delivery__block-1">
+                <div class="container">
+                    <div class="delivery__block-1-text">
+                        Мы гарантируем быструю и безопасную доставку вашего автомобиля из Америки в любую точку
+                        мира!
+                        Аукционные торги проходят на площадках, расположенных по всей территории США. Поэтому
+                        доставка
+                        купленного на аукционе автомобиля осуществляется, как правило, в четыре этапа:
+                    </div>
+                    <div class="delivery__block-1-box">
+                        <div class="delivery__block-1-li"> Перевозка по территории США до порта отправки (от 3-х
+                            дней до
+                            2-х
+                            недель)
+                        </div>
+                        <div class="delivery__block-1-li">В порту автомобиль проходит Американскую таможню и
+                            загружается
+                            в
+                            контейнер. (2-7 дней)
+                        </div>
+                        <div class="delivery__block-1-li">Доставка морем в один из портов Европы (как правило, 3-6
+                            недель)
+                        </div>
+                        <div class="delivery__block-1-li">Транспортировка (или перегон) из порта к заказчику
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg_gray delivery__section-1">
+                <div class="container">
+                    <div class="delivery__table-block">
+                        <div class="delivery__table-block-title">
+                            ПЕРЕВОЗКА АВТО ПО ТЕРРИТОРИИ США
+                        </div>
+                        <div class="delivery__table-block-text">
+                            Купленный на аукционе автомобиль должен быть доставлен в порт Newark для погрузки. <br>
+                            Доставка может быть осуществлена по одному из двух вариантов:<br>
+                            Стоимость доставки купленного автомобиля в порт отгрузки зависит от расстояния и вычисляется
+                            из
+                            расчета 1.2 доллара за милю (ориентировочно).<br>
+                            Стоимость доставки с торговых площадок, не включенных в приведенный ниже список, можно
+                            получить
+                            по запросу. Срок доставки автомобиля в порт, как правило, составляет от 3-4 дней до 2-х
+                            недель.<br>
+                        </div>
+                        <div class="delivery__table">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped ">
+                                    <thead>
+                                        <tr>
+                                            <th rowspan="2">Страна</th>
+                                            <th rowspan="2">Город</th>
+                                            <td colspan="2">Стоимость доставки, долл. США</td>
+                                            <th rowspan="2">Срок доставки, дней</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Контейнер<br> 40-фут. (3 авто)</th>
+                                            <th>1 автомобиль (загрузка 3-х авто<br> 40-фут. контейнер)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Финляндия</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Котка</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">950</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">21-25</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Германия</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Бремерхафен</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">750</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">11-15</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Польша</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Гдыня</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1000</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">21-25</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="3">
+                                                <p><strong>Россия</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Новороссийск</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1050</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">30-40</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Новосибирск</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">10800</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Владивосток</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1700</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2">
+                                                <p><strong>Украина</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Одесса</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1050</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">30-40</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Ильичевск</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1050</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">30-40</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Беларусь</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Минск</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1450</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">30-40</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="5">
+                                                <p><strong>Казахстан</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Алматы</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">3000</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Астана</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">3000</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-46</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Караганда</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">10800</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Павлодар</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">10800</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Кустанай</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">10800</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Литва</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Клайпеда</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">950</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">21-25</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Латвия</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Рига</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">950</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">21-25</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Эстония</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Таллин</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">950</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">21-25</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Грузия</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Поти</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1050</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">30-45</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Киргизия</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Бишкек</p>
+                                            </td>
+                                            <td>
+                                                <p style="text-align: center;">3000</p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp;</p>
+                                            </td>
+                                            <td style="text-align: center;">
+                                                <p>45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Корея</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Пусан</p>
+                                            </td>
+                                            <td>
+                                                <p style="text-align: center;">1500</p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp;</p>
+                                            </td>
+                                            <td style="text-align: center;">
+                                                <p>40-50</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>ОАЭ</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Джебел Али</p>
+                                            </td>
+                                            <td>
+                                                <p style="text-align: center;">900</p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp;</p>
+                                            </td>
+                                            <td style="text-align: center;">
+                                                <p>25-30</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Япония</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Йокогама</p>
+                                            </td>
+                                            <td>&nbsp;</td>
+                                            <td>
+                                                <p style="text-align: center;">3000</p>
+                                            </td>
+                                            <td style="text-align: center;">
+                                                <p>40-50</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="show-more">
+                                <a data-text="Свернуть">Смотреть все цены</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="delivery__section-2">
+                <div class="container">
+                    <div class="delivery__table-block">
+                        <div class="delivery__table-block-title">
+                            ТАМОЖЕННОЕ ОФОРМЛЕНИЕ В сша
+                        </div>
+                        <div class="delivery__table">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped ">
+                                    <thead>
+                                        <tr>
+                                            <th rowspan="2">Тип</th>
+                                            <td colspan="3">Внутренние размеры, м</td>
+                                            <td colspan="2">Габариты дверей, м</td>
+                                            <td colspan="3">Допустимый вес, кг</td>
+                                            <th rowspan="2">Объем, куб.м</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Длин.</th>
+                                            <th>Шир.</th>
+                                            <th>Выс.</th>
+                                            <th>Шир.</th>
+                                            <th>Выс.</th>
+                                            <th>Груз</th>
+                                            <th>Тара</th>
+                                            <th>Сумма</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>20-фт</td>
+                                            <td>5.90</td>
+                                            <td>2.35</td>
+                                            <td>2.39</td>
+                                            <td>2.34</td>
+                                            <td>2.28</td>
+                                            <td>21720</td>
+                                            <td>2280</td>
+                                            <td>24000</td>
+                                            <td>33.20</td>
+                                        </tr>
+                                        <tr>
+                                            <td>40-фт</td>
+                                            <td>12.04</td>
+                                            <td>2.35</td>
+                                            <td>2.39</td>
+                                            <td>2.34</td>
+                                            <td>2.28</td>
+                                            <td>26650</td>
+                                            <td>3830</td>
+                                            <td>30480</td>
+                                            <td>67.70</td>
+                                        </tr>
+                                        <tr>
+                                            <td>40-фт HC*</td>
+                                            <td>12.03</td>
+                                            <td>2.35</td>
+                                            <td>2.70</td>
+                                            <td>2.34</td>
+                                            <td>2.58</td>
+                                            <td>26500</td>
+                                            <td>3980</td>
+                                            <td>30480</td>
+                                            <td>76.30</td>
+                                        </tr>
+                                        <tr>
+                                            <td>45-фт HC*</td>
+                                            <td>13.56</td>
+                                            <td>2.35</td>
+                                            <td>2.70</td>
+                                            <td>2.34</td>
+                                            <td>2.58</td>
+                                            <td>25680</td>
+                                            <td>4800</td>
+                                            <td>30480</td>
+                                            <td>86.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="delivery__table-block-text">
+                            <p>* -HC (HIGH CUBE) - увеличенный вариант 40 футового контейнера.
+                            </p>
+                            <p>Доставка автомобилей из США осуществляется 40HC и 20-ти футовыми контейнерами, либо
+                                палубным
+                                способом (при транспортировке большегрузных автомобилей, тягачей, катеров, лодок и
+                                другой
+                                спецтехники, по размерам не входящей в контейнер).
+                            </p>
+                            <p>Также мы можем загрузить до 4-х автомобилей в один контейнер если их размеры позволяют
+                                это.
+                            </p>
+                            <p>В данном случае мы добавляем только $350 к базовой стоимости перевозки контейнера В нашей
+                                компании Вы можете застраховать ваш автомобиль на период морской транспортировки. При
+                                страховке авто мы пользуемся услугами таких крупных страховых компаний, как "Sigma" или
+                                "Loyd of London". Стоимость страховки составляет 1.9% от заявленной стоимости
+                                автомобиля.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="delivery__section-3 bg_gray">
+                <div class="container">
+                    <div class="delivery__table-block">
+                        <div class="delivery__table-block-title">
+                            ДОСТАВКА МОРЕМ В ОДИН ИЗ ПОРТОВ ЕВРОПЫ
+                        </div>
+                        <div class="delivery__table-block-text">
+                            Мы можем доставить авто практически в любой порт мира, спросите нас об итересуюшем вас
+                            варианте
+                            доставки. Вот наши расценки для доставок 40ft.High Cube контейнера из порта Нью-Йорка в
+                            некотрые
+                            пункты Европы и Азии.
+                        </div>
+                        <div class="delivery__table">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped ">
+                                    <thead>
+                                        <tr>
+                                            <th rowspan="2">Страна</th>
+                                            <th rowspan="2">Город</th>
+                                            <td colspan="2">Стоимость доставки, долл. США</td>
+                                            <th rowspan="2">Срок доставки, дней</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Контейнер<br> 40-фут. (3 авто)</th>
+                                            <th>1 автомобиль (загрузка 3-х авто<br> 40-фут. контейнер)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Финляндия</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Котка</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">950</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">21-25</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Германия</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Бремерхафен</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">750</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">11-15</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Польша</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Гдыня</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1000</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">21-25</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="3">
+                                                <p><strong>Россия</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Новороссийск</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1050</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">30-40</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Новосибирск</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">10800</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Владивосток</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1700</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2">
+                                                <p><strong>Украина</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Одесса</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1050</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">30-40</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Ильичевск</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1050</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">30-40</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Беларусь</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Минск</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1450</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">30-40</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="5">
+                                                <p><strong>Казахстан</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Алматы</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">3000</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Астана</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">3000</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-46</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Караганда</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">10800</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Павлодар</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">10800</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Кустанай</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">10800</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Литва</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Клайпеда</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">950</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">21-25</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Латвия</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Рига</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">950</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">21-25</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Эстония</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Таллин</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">950</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">21-25</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Грузия</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Поти</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">1050</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">&nbsp;</p>
+                                            </td>
+                                            <td>
+                                                <p align="center">30-45</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Киргизия</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Бишкек</p>
+                                            </td>
+                                            <td>
+                                                <p style="text-align: center;">3000</p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp;</p>
+                                            </td>
+                                            <td style="text-align: center;">
+                                                <p>45-60</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Корея</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Пусан</p>
+                                            </td>
+                                            <td>
+                                                <p style="text-align: center;">1500</p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp;</p>
+                                            </td>
+                                            <td style="text-align: center;">
+                                                <p>40-50</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>ОАЭ</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Джебел Али</p>
+                                            </td>
+                                            <td>
+                                                <p style="text-align: center;">900</p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp;</p>
+                                            </td>
+                                            <td style="text-align: center;">
+                                                <p>25-30</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Япония</strong></p>
+                                            </td>
+                                            <td>
+                                                <p>Йокогама</p>
+                                            </td>
+                                            <td>&nbsp;</td>
+                                            <td>
+                                                <p style="text-align: center;">3000</p>
+                                            </td>
+                                            <td style="text-align: center;">
+                                                <p>40-50</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="show-more">
+                                <a data-text="Свернуть">Смотреть все цены</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="delivery__section-4">
+                <div class="container">
+                    <div class="delivery__table-block">
+                        <div class="delivery__table-block-title">
+                            ТРАНСПОРТИРОВКА ИЛИ ПЕРЕГОН ИЗ ПОРТА К ЗАКАЗЧИКУ
+                        </div>
+                        <div class="delivery__table-block-text">
+                            Наша компания может организовать транспортировку Вашего автомобиля автовозом из Финляндии в
+                            практически любой крупный город России под TIR.<br>
+                            Доставка автовозом, работающим в системе TIR, имеет большое преимущество по сравнению с
+                            перегоном «своим ходом»:
+                            <ul>
+                                <li>Авто-, мото-, водная и специализированная техника не накручивает пробег или
+                                    моточасы, не
+                                    изнашивается при передвижении по плохим• дорогам.
+                                </li>
+                                <li>Позволяет избежать внесения депозита на счет таможни.
+                                </li>
+                                <li>Не нужно оплачивать транзитные сборы, ОСАГО и услуги таможенных декларантов.</li>
+                            </ul>
+                        </div>
+                        <div class="delivery__table">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped ">
+                                    <thead>
+                                        <tr>
+                                            <th>Город</th>
+                                            <th>Стоимость $ Доллары США</th>
+                                            <th>Город</th>
+                                            <th>Стоимость $ Доллары США</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Ст. Петербург</td>
+                                            <td>400</td>
+                                            <td>Курган</td>
+                                            <td>1850</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Москва</td>
+                                            <td>1200</td>
+                                            <td>Уфа</td>
+                                            <td>1650</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Нижний Новгород</td>
+                                            <td>1200</td>
+                                            <td>Челябинск</td>
+                                            <td>1750</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Казань</td>
+                                            <td>1450</td>
+                                            <td>Екатиренбург</td>
+                                            <td>1800</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Набережные Челны</td>
+                                            <td>1560</td>
+                                            <td>Тюмень</td>
+                                            <td>2000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Пенза</td>
+                                            <td>1250</td>
+                                            <td>Сургут</td>
+                                            <td>2000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Саратов</td>
+                                            <td>1250</td>
+                                            <td>Омск</td>
+                                            <td>2200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Воронеж</td>
+                                            <td>1250</td>
+                                            <td>Новосибирск</td>
+                                            <td>2400</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Пермь</td>
+                                            <td>1650</td>
+                                            <td>Кемерово</td>
+                                            <td>2600</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Самара</td>
+                                            <td>1450</td>
+                                            <td>Томск</td>
+                                            <td>2600</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Тольяти</td>
+                                            <td>1450</td>
+                                            <td>Барнаул</td>
+                                            <td>2600</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Красноярск</td>
+                                            <td>2900</td>
+                                            <td>Иркутск</td>
+                                            <td>3400</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="show-more">
+                                <a data-text="Свернуть">Смотреть все цены</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class=" bg_gray">
+                <div class="container">
+                    <div class="main__subtitle">
+                        <span>Мы гарантируем минимальную стоимость доставки вашего груза.</span><br>
+                        Также возможна доставка самолётом: стоимость доставки будет зависеть от аэропорта назначения и
+                        веса
+                        груза.<br>
+                        <p>Стоимость транспортировки грузовой и др. спец-техники определяется индивидуально.</p>
+                        По всем вопросам, связанным с транспортировкой обращайтесь в офис компании <a
+                            href="#">AutoBazar.US</a>.
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <!-- content end -->
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__left">
+                <div class="footer__logo">
+                    <a href="#" class="footer-logo"><img src="images/data/logo.png" alt=""></a>
+                </div>
+                <div class="footer__socials-box">
+                    <ul class="footer-socials list-unstyled list-inline">
+                        <li><a href="https://twitter.com/AutoBazarUs" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-twitter-icon.png" alt=""></a></li>
+                        <li><a href="http://www.youtube.com/subscription_center?add_user=autobazarus" class="soc-link"
+                                target="blank"><img src="images/icons/footer-youtube-icon.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/autobazar.ru" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-vk-icon.png" alt=""></a></li>
+                        <li><a href="http://vk.com/autobazargroup" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-fb-icon.png" alt=""></a></li>
+                        <li><a href="https://plus.google.com/+autobazarus/posts" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-instagram-icon.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__right">
+                <div class="footer__sitemap">
+                    <a href="#">Карта сайта</a>
+                    <a href="javascript:;" data-fancybox data-src="#modal">Стать диллером</a>
+                </div>
+                <div class="footer__search">
+                    <form>
+                        <input type="text" class="search-input" placeholder="Поиск">
+                    </form>
+                    <div class="footer-languages">
+                        <div class="language-select">
+                            <a class="dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki">Русский </a>
+                                </li>
+                                <li><a href="/en/purchasing-process"> English
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2002-2019 AutoBazar.US
+        </div>
+    </footer>
+
+    <!--модальные окна-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="login">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">Вход</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль" class="form-control">
+                        </div>
+                        <div class="form-group ">
+                            <p class="alert alert-danger">Неверный e-mail или пароль</p>
+                        </div><br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" value="Вход">
+                                    <a href="#" class="dashed " data-toggle="modal" data-target="#reg">Регистрация</a>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group ">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="check">
+                                        <label><input type="checkbox"> запомнить меня</label>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="text-right"><a href="#" class="dashed" data-toggle="modal"
+                                            data-target="#forget">Забыли пароль</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="reg">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">Регистрация</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Имя" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль еще раз" class="form-control">
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" class="btn btn-solid btn-primary btn-inline btn2"
+                                        value="Регистрация">
+                                    <a href="#" class="dashed " data-toggle="modal" data-target="#login">Войти</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="forget">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">напоминание пароль</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group ">
+                            <p class="alert alert-success">На указанный e-mail отправлено письмо с паролем</p>
+                        </div><br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" value="Отправить">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script> -->
+    <script src="js/fotorama.js"></script>
+    <!-- <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/blockUI.js"></script>
+    <script src="js/notify.min.js"></script>
+    <script src="js/underscore.js"></script> -->
+    <script src="js/fancybox.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

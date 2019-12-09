@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Процесс Покупки</title>
+    <meta name="keywords" content="">
+    <meta property="og:title" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:image" content="" />
+    <meta property="fb:app_id" content="">
+    <meta name="csrf-token" content="">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/fotorama.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/libs.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="nav">
+            <div class="header__top">
+                <!--top navigation-->
+                <div class="container">
+                    <div class="logo">
+                        <a href="#"><img src="images/data/logo.png" alt=""></a>
+                    </div>
+                    <div class="header__zakaz-box">
+                        <a class="zakaz-box__zayavka" href="javascript:;" data-fancybox data-src="#modal">Заявка на
+                            авто</a>
+                        <a class="zakaz-box__zvonok" href="javascript:;" data-fancybox data-src="#modal">Заказать
+                            звонок</a>
+                    </div>
+                    <div class="header__phones">
+                        <div class="header__phones-box">
+                            <a href="tel:+14402125612">+1 (440) 212-5612 (USA)</a>
+                            <a href="tel:+74991235732 ">+7 (499) 123-5732 (RUS)</a>
+                        </div>
+                    </div>
+                    <div class="header__social">
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                    </div>
+                    <div class="header__dealer">
+                        <a href="javascript:;" data-fancybox data-src="#modal">Стать дилером</a>
+                    </div>
+                    <div class="header__nav">
+                        <div class="language-select">
+                            <a class="btn btn-link dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki"> Русский
+                                    </a>
+                                </li>
+                                <li><a href="/en/purchasing-process"> English
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="header__login">
+                            <a href="javascript:;" data-fancybox data-src="#login">Вход</a>
+                        </div>
+                    </div>
+                    <div class="header__mobile">
+                        <a href="#" class="menu-toggle">Menu</a>
+                    </div>
+                </div>
+            </div>
+            <!--main menu-->
+            <div class="header__bottom">
+                <div class="container">
+                    <ul class="main-menu list-unstyled">
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Новые авто</a>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Авто с пробегом</a>
+                            <ul class="main-submenu list-unstyled">
+                                <li class="main-submenu-item">
+                                    <a href="#">Авто с аукционов</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Б/У авто в наличии</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Последние продажи</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Услуги</a>
+                            <ul class="main-submenu list-unstyled">
+                                <li class="main-submenu-item">
+                                    <a href="#">Авто с аукционов</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Процесс покупки</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Доставка</a>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">О нас</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="header__search">
+                        <button class="search-toggle">
+                            <span class="icon search-icon"></span></button>
+                        <div class="search-popup">
+                            <div class="search">
+                                <form>
+                                    <input type="text" name="search" placeholder="Поиск">
+                                    <input type="submit" value="" class="search-submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--mobile box-->
+            <div class="header__mobile-box">
+                <div>
+                    <div class="header__phones">
+                        <div class="header__phones-box">
+                            <a href="tel:+14402125612">+1 (440) 212-5612 (USA)</a>
+                            <a href="tel:+74991235732 ">+7 (499) 123-5732 (RUS)</a>
+                        </div>
+                    </div>
+                    <div class="header__social">
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                    </div>
+                    <div class="header__dealer">
+                        <a href="javascript:;" data-fancybox data-src="#modal">Стать дилером</a>
+                    </div>
+                    <div class="header__search">
+                        <form>
+                            <input type="text" class="search-input" placeholder="Поиск">
+                        </form>
+                    </div>
+                    <div class="header__nav">
+                        <div class="language-select">
+                            <a href="#" class="btn btn-link dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki">
+                                        Русский </a>
+                                </li>
+                                <li><a href="/en/purchasing-process">
+                                        English
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="header__login">
+                            <a href="javascript:;" data-fancybox data-src="#login">Вход</a>
+                        </div>
+                    </div>
+                    <div class="header__mobile-menu">
+                        <ul class="main-menu list-unstyled">
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Новые авто</a>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Авто с пробегом</a>
+                                <ul class="main-submenu list-unstyled">
+                                    <li class="main-submenu-item">
+                                        <a href="#">Авто с аукционов</a>
+                                    </li>
+                                    <li class="main-submenu-item">
+                                        <a href="#">Б/У авто в наличии</a>
+                                    </li>
+                                    <li class="main-submenu-item">
+                                        <a href="#">Последние продажи</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Услуги</a>
+                                <ul class="main-submenu list-unstyled">
+                                    <li class="main-submenu-item">
+                                        <a href="#">Авто с аукционов</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Процесс покупки</a>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Доставка</a>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">О нас</a>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><!-- header end -->
+
+    <section class="top-block">
+        <!-- top-block -->
+        <div class="top-block__wrapper" style="background-image: url(images/data/special-preview-img.jpg)">
+            <div class="container">
+                <h1>Новость 1</h1>
+            </div>
+        </div>
+    </section><!-- top-block end -->
+
+    <!-- content -->
+    <main class="main news-page__main" style="background-image: url(images/data/road.jpg)">
+        <section class="content news-page__content">
+            <section>
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li class="active"><a href="#">Новость 1</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="news-page__preview-img">
+                        <img src="images/data/news-page-img1.jpg" alt="">
+                    </div>
+                    <div class="news-page__title">
+                        HENNEESSEY СОЗДАЛ ШЕСТИКОЛЕСНЫЙ ПИКАП
+                        GOLIATH НА БАЗЕ CHEVROLET SILVERADO
+                    </div>
+                    <div class="news-page__content-box">
+                        <div class="news-page__text-row">
+                            <div class="news-page__text-column col-l">
+                                <img src="images/data/news-page-img2.jpg" alt="">
+                                <p>Компания Hennessey Performance представила новый проект: трёхосный гигант Goliath
+                                    6x6,
+                                    основанный на пикапе Chevrolet Silverado 2019 модельного года в комплектации Trail
+                                    Boss
+                                    с пакетом Z71. При конструкции Goliath перекраивают заднюю подвеску пикапа,
+                                    добавляют
+                                    третью ведущую ось, лифтуют машину на 203 мм, ставят собственную увеличенную
+                                    грузовую
+                                    платформу, меняют колёса и шины, а ещё форсируют мотор V8 6.2.
+                                </p>
+                                <p>
+                                    В набор переделок входят каркас безопасности позади кабины и диодная люстра, новые
+                                    бамперы от Hennessey и 20-дюймовые колёсные диски, а также 37-дюймовые внедорожные
+                                    шины
+                                    BFG.
+                                </p>
+                                <p>
+                                    Под капотом ставится пакет HPE700 Supercharged, включающий в себя приводной
+                                    компрессор
+                                    объёмом 2,9 л, перенастройку агрегата и оригинальную выхлопную систему из
+                                    нержавейки.
+                                    Это увеличивает мощность с 426 сил до 715 л.с. Максимальный крутящий момент
+                                    вырастает с
+                                    624 до 915 Н•м.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="news-page__text-row">
+                            <div class="news-page__text-column col-r">
+                                <img src="images/data/news-page-img3.jpg" alt="">
+                                <p>
+                                    Время разгона пикапа с места до 60 миль/ч (97 км/ч), по оценке разработчиков,
+                                    составит
+                                    около 4,5 с. В виде опции отдачу можно поднять и до 819 л.с. В этом случае к
+                                    предыдущим
+                                    изменениям в моторе добавится увеличение рабочего объёма за счёт роста хода поршня.
+                                    Дополнительные опции - усиленные тормоза от Brembo и украшения в салоне .
+                                </p>
+                                <p>
+                                    К Silverado специалисты Hennessey обратились после успеха шестиколёсной модели
+                                    VelociRaptor 6X6, основанной на пикапе Ford F-150 Raptor. Агрегат V6 3.5 EcoBoost
+                                    после
+                                    перекройки в ателье выдаёт тут более 600 л.с.
+                                </p>
+                                <p>
+                                    На Goliath 6x6 ателье даёт гарантию три года или 36 000 миль. Стоимость монстра
+                                    составляет $375 000, включая исходный пикап Silverado. Этот монстр будет выпущен
+                                    тиражом
+                                    всего 24 экземпляра.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__subtitle">
+                        Если вас заинтересовал этот автомобиль Компания <a href="#">AutoBazar.US</a> принимает заказы на
+                        покупку и
+                        сделает вам поставку в любою точку мира.
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <!-- content end -->
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__left">
+                <div class="footer__logo">
+                    <a href="#" class="footer-logo"><img src="images/data/logo.png" alt=""></a>
+                </div>
+                <div class="footer__socials-box">
+                    <ul class="footer-socials list-unstyled list-inline">
+                        <li><a href="https://twitter.com/AutoBazarUs" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-twitter-icon.png" alt=""></a></li>
+                        <li><a href="http://www.youtube.com/subscription_center?add_user=autobazarus" class="soc-link"
+                                target="blank"><img src="images/icons/footer-youtube-icon.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/autobazar.ru" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-vk-icon.png" alt=""></a></li>
+                        <li><a href="http://vk.com/autobazargroup" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-fb-icon.png" alt=""></a></li>
+                        <li><a href="https://plus.google.com/+autobazarus/posts" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-instagram-icon.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__right">
+                <div class="footer__sitemap">
+                    <a href="#">Карта сайта</a>
+                    <a href="javascript:;" data-fancybox data-src="#modal">Стать диллером</a>
+                </div>
+                <div class="footer__search">
+                    <form>
+                        <input type="text" class="search-input" placeholder="Поиск">
+                    </form>
+                    <div class="footer-languages">
+                        <div class="language-select">
+                            <a class="dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki">Русский </a>
+                                </li>
+                                <li><a href="/en/purchasing-process"> English
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2002-2019 AutoBazar.US
+        </div>
+    </footer>
+
+    <!--модальные окна-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="login">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">Вход</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль" class="form-control">
+                        </div>
+                        <div class="form-group ">
+                            <p class="alert alert-danger">Неверный e-mail или пароль</p>
+                        </div><br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" value="Вход">
+                                    <a href="#" class="dashed " data-toggle="modal" data-target="#reg">Регистрация</a>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group ">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="check">
+                                        <label><input type="checkbox"> запомнить меня</label>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="text-right"><a href="#" class="dashed" data-toggle="modal"
+                                            data-target="#forget">Забыли пароль</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="reg">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">Регистрация</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Имя" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль еще раз" class="form-control">
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" class="btn btn-solid btn-primary btn-inline btn2"
+                                        value="Регистрация">
+                                    <a href="#" class="dashed " data-toggle="modal" data-target="#login">Войти</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="forget">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">напоминание пароль</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group ">
+                            <p class="alert alert-success">На указанный e-mail отправлено письмо с паролем</p>
+                        </div><br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" value="Отправить">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script> -->
+    <script src="js/fotorama.js"></script>
+    <!-- <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/blockUI.js"></script>
+    <script src="js/notify.min.js"></script>
+    <script src="js/underscore.js"></script> -->
+    <script src="js/fancybox.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

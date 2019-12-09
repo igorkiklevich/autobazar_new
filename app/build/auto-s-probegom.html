@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Процесс Покупки</title>
+    <meta name="keywords" content="">
+    <meta property="og:title" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:image" content="" />
+    <meta property="fb:app_id" content="">
+    <meta name="csrf-token" content="">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/fotorama.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/libs.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="nav">
+            <div class="header__top">
+                <!--top navigation-->
+                <div class="container">
+                    <div class="logo">
+                        <a href="#"><img src="images/data/logo.png" alt=""></a>
+                    </div>
+                    <div class="header__zakaz-box">
+                        <a class="zakaz-box__zayavka" href="javascript:;" data-fancybox data-src="#modal">Заявка на
+                            авто</a>
+                        <a class="zakaz-box__zvonok" href="javascript:;" data-fancybox data-src="#modal">Заказать
+                            звонок</a>
+                    </div>
+                    <div class="header__phones">
+                        <div class="header__phones-box">
+                            <a href="tel:+14402125612">+1 (440) 212-5612 (USA)</a>
+                            <a href="tel:+74991235732 ">+7 (499) 123-5732 (RUS)</a>
+                        </div>
+                    </div>
+                    <div class="header__social">
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                    </div>
+                    <div class="header__dealer">
+                        <a href="javascript:;" data-fancybox data-src="#modal">Стать дилером</a>
+                    </div>
+                    <div class="header__nav">
+                        <div class="language-select">
+                            <a class="btn btn-link dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki"> Русский
+                                    </a>
+                                </li>
+                                <li><a href="/en/purchasing-process"> English
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="header__login">
+                            <a href="javascript:;" data-fancybox data-src="#login">Вход</a>
+                        </div>
+                    </div>
+                    <div class="header__mobile">
+                        <a href="#" class="menu-toggle">Menu</a>
+                    </div>
+                </div>
+            </div>
+            <!--main menu-->
+            <div class="header__bottom">
+                <div class="container">
+                    <ul class="main-menu list-unstyled">
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Новые авто</a>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Авто с пробегом</a>
+                            <ul class="main-submenu list-unstyled">
+                                <li class="main-submenu-item">
+                                    <a href="#">Авто с аукционов</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Б/У авто в наличии</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Последние продажи</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">Услуги</a>
+                            <ul class="main-submenu list-unstyled">
+                                <li class="main-submenu-item">
+                                    <a href="#">Авто с аукционов</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Процесс покупки</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Доставка</a>
+                        </li>
+                        <li class="main-menu-item with-submenu">
+                            <a href="#">О нас</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="header__search">
+                        <button class="search-toggle">
+                            <span class="icon search-icon"></span></button>
+                        <div class="search-popup">
+                            <div class="search">
+                                <form>
+                                    <input type="text" name="search" placeholder="Поиск">
+                                    <input type="submit" value="" class="search-submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--mobile box-->
+            <div class="header__mobile-box">
+                <div>
+                    <div class="header__phones">
+                        <div class="header__phones-box">
+                            <a href="tel:+14402125612">+1 (440) 212-5612 (USA)</a>
+                            <a href="tel:+74991235732 ">+7 (499) 123-5732 (RUS)</a>
+                        </div>
+                    </div>
+                    <div class="header__social">
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                        <a href="#" target="blank"></a>
+                    </div>
+                    <div class="header__dealer">
+                        <a href="javascript:;" data-fancybox data-src="#modal">Стать дилером</a>
+                    </div>
+                    <div class="header__search">
+                        <form>
+                            <input type="text" class="search-input" placeholder="Поиск">
+                        </form>
+                    </div>
+                    <div class="header__nav">
+                        <div class="language-select">
+                            <a href="#" class="btn btn-link dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki">
+                                        Русский </a>
+                                </li>
+                                <li><a href="/en/purchasing-process">
+                                        English
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="header__login">
+                            <a href="javascript:;" data-fancybox data-src="#login">Вход</a>
+                        </div>
+                    </div>
+                    <div class="header__mobile-menu">
+                        <ul class="main-menu list-unstyled">
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Новые авто</a>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Авто с пробегом</a>
+                                <ul class="main-submenu list-unstyled">
+                                    <li class="main-submenu-item">
+                                        <a href="#">Авто с аукционов</a>
+                                    </li>
+                                    <li class="main-submenu-item">
+                                        <a href="#">Б/У авто в наличии</a>
+                                    </li>
+                                    <li class="main-submenu-item">
+                                        <a href="#">Последние продажи</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">Услуги</a>
+                                <ul class="main-submenu list-unstyled">
+                                    <li class="main-submenu-item">
+                                        <a href="#">Авто с аукционов</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Процесс покупки</a>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Доставка</a>
+                            </li>
+                            <li class="main-menu-item with-submenu">
+                                <a href="#">О нас</a>
+                            </li>
+                            <li class="main-menu-item">
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> <!-- header end -->
+
+    <section class="top-block">
+        <!-- top-block -->
+        <div class="top-block__wrapper" style="background-image: url(images/data/process-preview-img.jpg)">
+            <div class="container">
+                <h1>Авто с пробегом</h1>
+            </div>
+        </div>
+    </section><!-- top-block end -->
+
+    <!-- content -->
+    <main class="main new-auto__main">
+        <section class="content new-auto__content">
+            <section>
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li class="active"><a href="#">Авто с пробегом</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="new-auto__text-preview">
+                <div class="container">
+                    <p>Американцы знают толк в надежной технике. Уверены – Вы тоже! Купить автомобиль из Америки
+                        –
+                        естественное желание для человека Вашего склада. Но эта задача – не из простых, ведь
+                        огромное
+                        количество прекрасных авто доступны только в США и Канаде. И не поставляются при этом на
+                        рынки
+                        других стран!</p>
+                    Вот лишь несколько примеров:
+                    <ul class="type-content">
+                        <li>Сверхмощные пикапы типа <span>Dodge RAM 1500</span>;
+                        </li>
+                        <li>Уникальные внедорожники <span>Jeep Wrangler</span> с дизелем <span>V6
+                                EcoDiesel</span>;
+                        </li>
+                        <li>Машины, которых нет в России (<span>Lincoln</span>, некоторые модели
+                            <span>Tesla</span>
+                            и
+                            <span>Chevrolet</span>).
+                        </li>
+                    </ul>
+                    <p>Всё это предназначено лишь немногим? Нет! AutoBazar.us делает автомобили из Америки
+                        доступными
+                        для всех! Уже более 10 лет мы занимаемся поставками лучших машин из США и Канады.
+                        Благодаря
+                        нашей работе автолюбители из более чем 20 стран мира владеют техникой своей мечты!
+                    </p>
+                    У нас есть всё!
+                    <ul class="type-content">
+                        <li>Уникальные модели, доступные только в Америке;
+                        </li>
+                        <li>Эксклюзивные марки;
+                        </li>
+                        <li><a href="#">Мото</a> и <a href="#">спецтехника</a></li>
+                        <li><a href="#">Ретро-кары</a>,
+                            <a href="#">дома на колесах</a> и даже
+                            <a href="#">водный транспорт</a>!</li>
+                    </ul>
+                    <p>
+                        На нашем сайте Вы отыщете лучшую <a href="#">новую</a> и <a href="#">Б/У</a> технику,
+                        которая в
+                        обычных условиях доступна только
+                        на американском рынке. Здесь ценители надёжности и комфорта найдут настоящий эксклюзив
+                        по
+                        доступной цене. AutoBazar.us работает с официальными производителями и гордится своей
+                        репутацией! <span>Купить автомобиль из Америки? С нами это легко!</span> <br>
+                        <span>AutoBazar.us</span> – американские машины для наших людей!
+                    </p>
+                </div>
+            </section>
+            <section class="bu-no-padding">
+                <div class="container">
+                    <div class="about__title">
+                        Авто в наличии
+                    </div>
+                    <div class="new-auto__subtitle">
+                        Некоторые популярные модели авто мы выкупаем заранее за свой счет и имеем в наличии на нашем
+                        складе.
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel__items">
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                        </div>
+                        <div class="carousel__button">
+                            <div class="show-more">
+                                <a>Перейти в раздел</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg_gray manheim-block">
+                <div class="container">
+                    <div class="about__title">
+                        Хотите рассмотреть больше вариантов?
+                    </div>
+                    <div class="new-auto__subtitle">
+                        Воспользуйтесь поиском автомобиля по аукциону manheim прямо на нашем сайте
+                    </div>
+                    <div class="video__row">
+                        <div class="video__column">
+                            <img src="images/data/manheim.png" alt="">
+                        </div>
+                        <div class="video__column">
+                            <ul class="type-content">
+                                <li>Бесплатный доступ ко всем лотам </li>
+                                <li>Возможность добавления автомобилей в гараж для сравнения</li>
+                                <li>Удобный поиск среди тысяч предложений аукциона</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="new-auto__search-button">
+                        <a href="#">Перейти к поиску</a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="about__title">
+                        Последние проданные авто
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel__items">
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                            <div class="carousel__item">
+                                <img src="images/data/carousel-img.jpg" alt="">
+                                <div class="carousel__item-title">
+                                    2019 Ford F-150 Raptor
+                                    <span>81392$</span>
+                                </div>
+                                <a href="#"></a>
+                            </div>
+                        </div>
+                        <div class="carousel__button">
+                            <div class="show-more">
+                                <a>Перейти в раздел</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg_gray">
+                <div class="container">
+                    <div class="about__title">
+                        Процесс покупки поддержанного авто со склада в США
+                    </div>
+                </div>
+                <div class="tabs-content active-tab" id="process-pokupki__tab-3">
+                    <div class="container__inner">
+                        <div class="tabs-content-box">
+
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-8.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title">ВЫБОР АВТО В НАЛИЧИИ
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>Выберите интересующий Вас автомобиль в разделе АВТО В НАЛИЧИИ. На странице
+                                            описания авто лота нажмите кнопку "ЗАКАЗАТЬ" и заполните форму заказа с
+                                            указанием всех регистрационных данных.</p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-3.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title"> ПОДТВЕРЖДЕНИЕ ЗАКАЗА
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>После этого на Ваш e-mail поступит запрос о подтверждении с указанными
+                                            параметрами заказа.Только подтвержденные заказы принимаются менеджерами в
+                                            работу.</p>
+                                        <p>После подтверждения заказа с Вами свяжется сотрудник Департамента продаж
+                                            компании. С ним Вы оговариваете детали заказа и задаете любые интересующие
+                                            Вас
+                                            вопросы.</p>
+                                        <p>Также Вы можете запросить любую дополнительную информацию об интересующем Вас
+                                            автомобиле.</p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-5.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title"> ДОГОВОР КУПЛИ-ПРОДАЖИ
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>Если Вас устраивает выбранный вариант, с Вами заключается Договор
+                                            купли-продажи,
+                                            на основании которого Вы осуществляете банковский перевод на расчетный счет
+                                            компании или одному из представителей компании в Вашем регионе.</p>
+                                        <p>Автомобили со склада в США подлежат 100% предоплате, включая стоимость
+                                            доставки в
+                                            выбранный Вами порт.</p>
+                                        <p>Цена автомобилей на складе уже включает в себя наши комиссионные, но не
+                                            включает
+                                            стоимость доставки в порт назначения.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-6.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title">ТРАНСПОРТИРОВКА
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>В течение 3-10 рабочих дней после получения оплаты, автомобиль упаковывается
+                                            и
+                                            загружается в контейнер для отправки в выбранный Вами порт.</p>
+                                        <p>После затамаживания контейнера Таможенной Службой США, погрузки его на судно,
+                                            Вы
+                                            получаете экспресс-почтой оригинал техпаспорта (Title) и погрузочный
+                                            документ
+                                            (Dock receipt), в котором указан номер контейнера и порт назначения.
+                                        </p>
+                                        <p>В процессе перемещения контейнера Вы сможете самостоятельно отслеживать его
+                                            текущее местонахождение и предполагаемую дату прибытия на странице <a
+                                                href="#">Отслеживание Контейнеров</a>.</p>
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                            <!-- tabs item-->
+                            <div class="tabs-content-item">
+                                <div class="tabs-content-item-line"></div>
+                                <div class="tabs-content-item-left">
+                                    <img src="images/icons/process-icon-7.png" alt="">
+                                </div>
+                                <div class="tabs-content-item-right">
+                                    <div class="tabs-content-title"> ТАМОЖНЯ И РЕГИСТРАЦИЯ
+                                    </div>
+                                    <div class="tabs-content-text">
+                                        <p>По прибытии авто в пункт назначения, Вы, на основании полученных
+                                            документов,
+                                            осуществляете таможенную очистку и регистрацию автомобиля самостоятельно
+                                            или
+                                            с
+                                            помощью наших таможенных брокеров.</p>
+
+                                    </div>
+                                </div>
+                            </div><!-- tabs item END-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="video">
+                <div class="container">
+                    <div class="about__title">
+                        Видеообзоры
+                    </div>
+                    <div class="new-auto__subtitle">
+                        Смотрите на Нашем Видео Канале AutoBazar.US
+                    </div>
+                    <div class="video__row">
+                        <div class="video__column">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=0O2aH4XLbto"></a>
+                            <img src="images/cars/lincoln-navigator/11.jpg" alt="">
+                        </div>
+                        <div class="video__column">
+                            <ul class="type-content">
+                                <li>Тест Драйвы Новых Авто из США</li>
+                                <li>Видео Обзоры Авто из Америки</li>
+                                <li>Авто Тюнинг
+                                </li>
+                                <li>Автоаукционы США</li>
+                                <li>Как купить авто в США
+                                </li>
+                                <li>Отзывы Наших Клиентов
+                                </li>
+                                <li>И многое другое о нашей компании и автомобилях из Америки
+                                </li>
+                            </ul>
+                            <div class="show-more">
+                                <a href="#">Подписаться на канал</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <!-- content end -->
+
+    <section class="page-bottom__form form-pre-footer">
+        <div class="page-bottom" style="background-image: url(images/data/questions-form-bg.jpg);">
+            <div class="container">
+                <div class="about__title">
+                    Не нашли то, что искали?
+                </div>
+                <div class="page-bottom-subtitle">
+                    Отправьте нам заявку, мы в кротчайшие сроки подберем варианты и свяжемся с Вами.
+                </div>
+                <div class="page-bottom-form-box">
+                    <form>
+                        <input type="text" placeholder="ФИО*">
+                        <input type="text" placeholder="Номер телефона*">
+                        <input type="text" placeholder="E-mail*">
+                        <button class="btn-form">
+                            Отправить заявку
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__left">
+                <div class="footer__logo">
+                    <a href="#" class="footer-logo"><img src="images/data/logo.png" alt=""></a>
+                </div>
+                <div class="footer__socials-box">
+                    <ul class="footer-socials list-unstyled list-inline">
+                        <li><a href="https://twitter.com/AutoBazarUs" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-twitter-icon.png" alt=""></a></li>
+                        <li><a href="http://www.youtube.com/subscription_center?add_user=autobazarus" class="soc-link"
+                                target="blank"><img src="images/icons/footer-youtube-icon.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/autobazar.ru" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-vk-icon.png" alt=""></a></li>
+                        <li><a href="http://vk.com/autobazargroup" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-fb-icon.png" alt=""></a></li>
+                        <li><a href="https://plus.google.com/+autobazarus/posts" class="soc-link" target="blank"><img
+                                    src="images/icons/footer-instagram-icon.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__right">
+                <div class="footer__sitemap">
+                    <a href="#">Карта сайта</a>
+                    <a href="javascript:;" data-fancybox data-src="#modal">Стать диллером</a>
+                </div>
+                <div class="footer__search">
+                    <form>
+                        <input type="text" class="search-input" placeholder="Поиск">
+                    </form>
+                    <div class="footer-languages">
+                        <div class="language-select">
+                            <a class="dropdown-toggle dropdownMenu1">
+                                Русский </a>
+                            <ul class="languages-list">
+                                <li><a href="/ru/process-pokupki">Русский </a>
+                                </li>
+                                <li><a href="/en/purchasing-process"> English
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2002-2019 AutoBazar.US
+        </div>
+    </footer>
+
+    <!--модальные окна-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="login">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">Вход</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль" class="form-control">
+                        </div>
+                        <div class="form-group ">
+                            <p class="alert alert-danger">Неверный e-mail или пароль</p>
+                        </div><br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" value="Вход">
+                                    <a href="#" class="dashed " data-toggle="modal" data-target="#reg">Регистрация</a>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group ">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="check">
+                                        <label><input type="checkbox"> запомнить меня</label>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="text-right"><a href="#" class="dashed" data-toggle="modal"
+                                            data-target="#forget">Забыли пароль</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="reg">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">Регистрация</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Имя" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль еще раз" class="form-control">
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" class="btn btn-solid btn-primary btn-inline btn2"
+                                        value="Регистрация">
+                                    <a href="#" class="dashed " data-toggle="modal" data-target="#login">Войти</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="forget">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="modal-title text-center">напоминание пароль</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail" class="form-control">
+                        </div>
+                        <div class="form-group ">
+                            <p class="alert alert-success">На указанный e-mail отправлено письмо с паролем</p>
+                        </div><br />
+                        <div class="form-group">
+                            <div class="container-fluid">
+                                <div class="row text-center">
+                                    <input type="submit" value="Отправить">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script> -->
+    <script src="js/fotorama.js"></script>
+    <!-- <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/blockUI.js"></script>
+    <script src="js/notify.min.js"></script>
+    <script src="js/underscore.js"></script> -->
+    <script src="js/fancybox.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
