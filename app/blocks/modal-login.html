@@ -3,7 +3,7 @@
     <div class="modal-dialog " role="document">
         <div class="modal-content">
             <div class="modal-body">
-                <h4 class="modal-title text-center">Вход</h4>
+                <div class="about__title">Вход</div>
                 <form>
                     <div class="form-group">
                         <input type="text" placeholder="E-mail" class="form-control">
@@ -11,19 +11,18 @@
                     <div class="form-group">
                         <input type="password" placeholder="Пароль" class="form-control">
                     </div>
-                    <div class="form-group ">
-                        <p class="alert alert-danger">Неверный e-mail или пароль</p>
-                    </div><br />
                     <div class="form-group">
                         <div class="container-fluid">
                             <div class="row text-center">
                                 <input type="submit" value="Вход">
-                                <a href="#" class="dashed " data-toggle="modal" data-target="#reg">Регистрация</a>
+                                <a href="javascript:parent.jQuery.fancybox.close();" data-fancybox data-src="#reg"
+                                    class="dashed"
+                                    onclick="javascript:parent.jQuery.fancybox.close();">Регистрация</a>
                             </div>
                         </div>
                     </div>
                     <br />
-                    <div class="form-group ">
+                    <div class="form-group fg-flex">
                         <div class="row">
                             <div class="col-xs-6">
                                 <div class="check">
@@ -31,8 +30,9 @@
                                 </div>
                             </div>
                             <div class="col-xs-6">
-                                <div class="text-right"><a href="#" class="dashed" data-toggle="modal"
-                                        data-target="#forget">Забыли пароль</a></div>
+                                <div class="text-right"><a href="javascript:parent.jQuery.fancybox.close();"
+                                        data-fancybox data-src="#forget" class="dashed"
+                                        onclick="javascript:parent.jQuery.fancybox.close();">Забыли пароль</a></div>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
     <div class="modal-dialog " role="document">
         <div class="modal-content">
             <div class="modal-body">
-                <h4 class="modal-title text-center">Регистрация</h4>
+                <div class="about__title">Регистрация</div>
                 <form>
                     <div class="form-group">
                         <input type="text" placeholder="Имя" class="form-control">
@@ -66,7 +66,8 @@
                             <div class="row text-center">
                                 <input type="submit" class="btn btn-solid btn-primary btn-inline btn2"
                                     value="Регистрация">
-                                <a href="#" class="dashed " data-toggle="modal" data-target="#login">Войти</a>
+                                <a href="javascript:parent.jQuery.fancybox.close();" data-fancybox data-src="#login"
+                                    class="dashed" onclick="javascript:parent.jQuery.fancybox.close();">Войти</a>
                             </div>
                         </div>
                     </div>
@@ -80,14 +81,11 @@
     <div class="modal-dialog " role="document">
         <div class="modal-content">
             <div class="modal-body">
-                <h4 class="modal-title text-center">напоминание пароль</h4>
+                <div class="about__title">Напоминание пароля</div>
                 <form>
                     <div class="form-group">
                         <input type="text" placeholder="E-mail" class="form-control">
                     </div>
-                    <div class="form-group ">
-                        <p class="alert alert-success">На указанный e-mail отправлено письмо с паролем</p>
-                    </div><br />
                     <div class="form-group">
                         <div class="container-fluid">
                             <div class="row text-center">
